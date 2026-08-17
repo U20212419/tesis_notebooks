@@ -2,3 +2,4 @@ data/data_modelo_reconocimiento/digits_yolo/data/**
 data/data_modelo_reconocimiento/svhn_yolo/images/**
 data/data_modelo_reconocimiento/svhn_yolo/labels/**
 *.mat
+.vscode/
