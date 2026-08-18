@@ -14,7 +14,7 @@ seed: 42
 close_mosaic: 30  # Desactivar mosaic en las 30 últimas épocas
 cos_lr: True  # Varía el learning rate siguiendo una curva coseno
 optimizer: AdamW
-lr0: 0.001
+lr0: 0.0001  # Se disminuye el lr0 encontrado por el tuner para evitar sobreajuste en más épocas
 lrf: 0.01
 momentum: 0.937
 weight_decay: 0.0005
@@ -23,15 +23,15 @@ weight_decay: 0.0005
 # --- Hiperparámetros de aumentación de datos ---
 # Aumentaciones de Color
 hsv_h: 0.05  # (Default: 0.015) Un poco más de variación de tono
-hsv_s: 0.7   # (Default: 0.7) Variación de saturación
-hsv_v: 0.4   # (Default: 0.4) Variación de brillo
+hsv_s: 0.7  # (Default: 0.7) Variación de saturación
+hsv_v: 0.4  # (Default: 0.4) Variación de brillo
 
 # Aumentaciones Geométricas
-degrees: 0.05         # (Default: 0.0) Rotación leve (±0.05 grados)
-translate: 0.05       # (Default: 0.1) Mueve la imagen ligeramente
-scale: 0.5            # (Default: 0.5) Escalamiento de la imagen
-shear: 0.0001         # (Default: 0.0) Inclinación leve (±0.0001 grados)
-perspective: 0.00001  # (Default: 0.0) Altera la perspectiva levemente
+degrees: 0.05                 # (Default: 0.0) Rotación leve (±0.05 grados)
+translate: 0.05             # (Default: 0.1) Mueve la imagen ligeramente
+scale: 0.5                     # (Default: 0.5) Escalamiento de la imagen
+shear: 0.0001                     # (Default: 0.0) Inclinación leve (±0.0001 grados)
+perspective: 0.000010  # (Default: 0.0) Altera la perspectiva levemente
 
 # Aumentaciones Espejo
 flipud: 0.0  # (Default: 0.0) Sin volteo vertical
@@ -39,10 +39,10 @@ fliplr: 0.0  # (Default: 0.5) Sin volteo horizontal
 
 # Aumentaciones Compuestas
 mosaic: 1.0  # (Default: 1.0) Combina múltiples imágenes en una sola
-mixup: 0.0   # (Default: 0.0) Evita combinar dígitos y sus labels
-cutmix: 0.0  # (Default: 0.0) Evita reemplazar parte de una imagen
+mixup: 0.0             # (Default: 0.0) Evita combinar dígitos y sus labels
+cutmix: 0.0            # (Default: 0.0) Evita reemplazar parte de una imagen
 
 # Otras
-bgr: 0.1         # (Default: 0.0) Puede cambiar los canales de RGB a BGR
-copy_paste: 0.0  # (Default: 0.0) Evita copiar dígitos a otras imágenes
-erasing: 0.3     # (Default: 0.4) Puede borrar parte de la imagen
+bgr: 0.1          # (Default: 0.0) Puede cambiar los canales de RGB a BGR
+copy_paste: 0.0          # (Default: 0.0) Evita copiar dígitos a otras imágenes
+erasing: 0.3  # (Default: 0.4) Puede borrar parte de la imagen

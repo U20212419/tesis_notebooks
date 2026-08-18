@@ -1,7 +1,7 @@
-# 10/10 iterations complete ✅ (10043.58s)
+# 10/10 iterations complete ✅ (14008.90s)
 # Results saved to C:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_reconocimiento\digits_yolo\training_runs\yolo_digits_tune\yolo_digits_tune
-# Best fitness=0.90617 observed at iteration 1
-# Best fitness metrics are {'metrics/precision(B)': 0.98659, 'metrics/recall(B)': 0.98647, 'metrics/mAP50(B)': 0.99186, 'metrics/mAP50-95(B)': 0.90617, 'val/box_loss': 0.40489, 'val/cls_loss': 0.24373, 'val/dfl_loss': 0.80318, 'fitness': 0.90617}
+# Best fitness=0.85639 observed at iteration 1
+# Best fitness metrics are {'metrics/precision(B)': 0.98609, 'metrics/recall(B)': 0.98364, 'metrics/mAP50(B)': 0.9929, 'metrics/mAP50-95(B)': 0.85639, 'val/box_loss': 0.56683, 'val/cls_loss': 0.30576, 'val/dfl_loss': 0.82288, 'fitness': 0.85639}
 # Best fitness model is C:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_reconocimiento\digits_yolo\training_runs\yolo_digits_tune\yolo_digits_tune\weights
 lr0: 0.001
 lrf: 0.01

@@ -4,7 +4,7 @@ model: c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_reconocimiento\s
 data: c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_reconocimiento\digits_yolo\data\data.yaml
 epochs: 100
 time: null
-patience: 20
+patience: 0
 batch: 16
 imgsz: 1280
 save: true
