@@ -1,0 +1,159 @@
+2026-08-19 11:10:02,894 [INFO] - Entrenamiento nuevo iniciado.
+2026-08-19 11:10:45,052 [INFO] - Epoch 1/100 | Train Loss: 0.4908 | Train F1: 0.6789 | Val Loss: 0.1164 | Val F1: 0.9452
+2026-08-19 11:10:45,093 [INFO] - Nuevo mejor modelo guardado.
+2026-08-19 11:10:45,201 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:10:45,205 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:11:22,970 [INFO] - Epoch 2/100 | Train Loss: 0.1068 | Train F1: 0.9481 | Val Loss: 0.0818 | Val F1: 0.9716
+2026-08-19 11:11:23,020 [INFO] - Nuevo mejor modelo guardado.
+2026-08-19 11:11:23,143 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:11:23,144 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:11:59,667 [INFO] - Epoch 3/100 | Train Loss: 0.0698 | Train F1: 0.9642 | Val Loss: 0.0560 | Val F1: 0.9801
+2026-08-19 11:11:59,709 [INFO] - Nuevo mejor modelo guardado.
+2026-08-19 11:11:59,813 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:11:59,815 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:12:35,408 [INFO] - Epoch 4/100 | Train Loss: 0.0597 | Train F1: 0.9755 | Val Loss: 0.0710 | Val F1: 0.9658
+2026-08-19 11:12:35,408 [INFO] - Sin mejora en 1/20 épocas.
+2026-08-19 11:12:35,519 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:12:35,521 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:13:12,354 [INFO] - Epoch 5/100 | Train Loss: 0.0522 | Train F1: 0.9738 | Val Loss: 0.0446 | Val F1: 0.9821
+2026-08-19 11:13:12,394 [INFO] - Nuevo mejor modelo guardado.
+2026-08-19 11:13:12,503 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:13:12,505 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:13:48,858 [INFO] - Epoch 6/100 | Train Loss: 0.0435 | Train F1: 0.9781 | Val Loss: 0.0782 | Val F1: 0.9680
+2026-08-19 11:13:48,858 [INFO] - Sin mejora en 1/20 épocas.
+2026-08-19 11:13:48,978 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:13:48,980 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:14:31,732 [INFO] - Epoch 7/100 | Train Loss: 0.0364 | Train F1: 0.9873 | Val Loss: 0.0480 | Val F1: 0.9837
+2026-08-19 11:14:31,732 [INFO] - Sin mejora en 2/20 épocas.
+2026-08-19 11:14:31,864 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:14:31,866 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:15:15,789 [INFO] - Epoch 8/100 | Train Loss: 0.0393 | Train F1: 0.9804 | Val Loss: 0.0671 | Val F1: 0.9806
+2026-08-19 11:15:15,790 [INFO] - Sin mejora en 3/20 épocas.
+2026-08-19 11:15:15,906 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:15:15,908 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:15:59,560 [INFO] - Epoch 9/100 | Train Loss: 0.0333 | Train F1: 0.9845 | Val Loss: 0.0551 | Val F1: 0.9857
+2026-08-19 11:15:59,560 [INFO] - Sin mejora en 4/20 épocas.
+2026-08-19 11:15:59,676 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:15:59,678 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:16:43,339 [INFO] - Epoch 10/100 | Train Loss: 0.0335 | Train F1: 0.9847 | Val Loss: 0.0470 | Val F1: 0.9855
+2026-08-19 11:16:43,339 [INFO] - Sin mejora en 5/20 épocas.
+2026-08-19 11:16:43,455 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:16:43,457 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:17:26,897 [INFO] - Epoch 11/100 | Train Loss: 0.0282 | Train F1: 0.9902 | Val Loss: 0.0359 | Val F1: 0.9848
+2026-08-19 11:17:26,941 [INFO] - Nuevo mejor modelo guardado.
+2026-08-19 11:17:27,057 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:17:27,059 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:18:11,045 [INFO] - Epoch 12/100 | Train Loss: 0.0276 | Train F1: 0.9888 | Val Loss: 0.0488 | Val F1: 0.9864
+2026-08-19 11:18:11,046 [INFO] - Sin mejora en 1/20 épocas.
+2026-08-19 11:18:11,172 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:18:11,173 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:18:54,044 [INFO] - Epoch 13/100 | Train Loss: 0.0264 | Train F1: 0.9893 | Val Loss: 0.0486 | Val F1: 0.9846
+2026-08-19 11:18:54,044 [INFO] - Sin mejora en 2/20 épocas.
+2026-08-19 11:18:54,158 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:18:54,160 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:19:37,010 [INFO] - Epoch 14/100 | Train Loss: 0.0258 | Train F1: 0.9857 | Val Loss: 0.0706 | Val F1: 0.9747
+2026-08-19 11:19:37,010 [INFO] - Sin mejora en 3/20 épocas.
+2026-08-19 11:19:37,127 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:19:37,129 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:20:19,535 [INFO] - Epoch 15/100 | Train Loss: 0.0232 | Train F1: 0.9916 | Val Loss: 0.0398 | Val F1: 0.9898
+2026-08-19 11:20:19,536 [INFO] - Sin mejora en 4/20 épocas.
+2026-08-19 11:20:19,653 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:20:19,655 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:21:02,073 [INFO] - Epoch 16/100 | Train Loss: 0.0248 | Train F1: 0.9910 | Val Loss: 0.0548 | Val F1: 0.9786
+2026-08-19 11:21:02,074 [INFO] - Sin mejora en 5/20 épocas.
+2026-08-19 11:21:02,189 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:21:02,191 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:21:44,552 [INFO] - Epoch 17/100 | Train Loss: 0.0220 | Train F1: 0.9927 | Val Loss: 0.0503 | Val F1: 0.9817
+2026-08-19 11:21:44,552 [INFO] - Sin mejora en 6/20 épocas.
+2026-08-19 11:21:44,666 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:21:44,668 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:22:26,857 [INFO] - Epoch 18/100 | Train Loss: 0.0153 | Train F1: 0.9936 | Val Loss: 0.0343 | Val F1: 0.9884
+2026-08-19 11:22:26,903 [INFO] - Nuevo mejor modelo guardado.
+2026-08-19 11:22:27,017 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:22:27,019 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:23:08,909 [INFO] - Epoch 19/100 | Train Loss: 0.0138 | Train F1: 0.9958 | Val Loss: 0.0284 | Val F1: 0.9920
+2026-08-19 11:23:08,950 [INFO] - Nuevo mejor modelo guardado.
+2026-08-19 11:23:09,062 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:23:09,064 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:23:51,649 [INFO] - Epoch 20/100 | Train Loss: 0.0107 | Train F1: 0.9960 | Val Loss: 0.0342 | Val F1: 0.9908
+2026-08-19 11:23:51,649 [INFO] - Sin mejora en 1/20 épocas.
+2026-08-19 11:23:51,764 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:23:51,765 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:24:35,373 [INFO] - Epoch 21/100 | Train Loss: 0.0140 | Train F1: 0.9953 | Val Loss: 0.0438 | Val F1: 0.9863
+2026-08-19 11:24:35,373 [INFO] - Sin mejora en 2/20 épocas.
+2026-08-19 11:24:35,492 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:24:35,494 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:25:19,295 [INFO] - Epoch 22/100 | Train Loss: 0.0101 | Train F1: 0.9966 | Val Loss: 0.0466 | Val F1: 0.9865
+2026-08-19 11:25:19,296 [INFO] - Sin mejora en 3/20 épocas.
+2026-08-19 11:25:19,406 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:25:19,408 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:26:02,863 [INFO] - Epoch 23/100 | Train Loss: 0.0115 | Train F1: 0.9948 | Val Loss: 0.0406 | Val F1: 0.9873
+2026-08-19 11:26:02,863 [INFO] - Sin mejora en 4/20 épocas.
+2026-08-19 11:26:02,988 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:26:02,990 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:26:46,128 [INFO] - Epoch 24/100 | Train Loss: 0.0098 | Train F1: 0.9953 | Val Loss: 0.0536 | Val F1: 0.9853
+2026-08-19 11:26:46,128 [INFO] - Sin mejora en 5/20 épocas.
+2026-08-19 11:26:46,242 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:26:46,244 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:27:30,011 [INFO] - Epoch 25/100 | Train Loss: 0.0084 | Train F1: 0.9980 | Val Loss: 0.0355 | Val F1: 0.9893
+2026-08-19 11:27:30,011 [INFO] - Sin mejora en 6/20 épocas.
+2026-08-19 11:27:30,132 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:27:30,133 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:28:05,621 [INFO] - Epoch 26/100 | Train Loss: 0.0083 | Train F1: 0.9962 | Val Loss: 0.0388 | Val F1: 0.9897
+2026-08-19 11:28:05,621 [INFO] - Sin mejora en 7/20 épocas.
+2026-08-19 11:28:05,732 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:28:05,734 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:28:40,049 [INFO] - Epoch 27/100 | Train Loss: 0.0079 | Train F1: 0.9963 | Val Loss: 0.0380 | Val F1: 0.9867
+2026-08-19 11:28:40,050 [INFO] - Sin mejora en 8/20 épocas.
+2026-08-19 11:28:40,160 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:28:40,162 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:29:20,377 [INFO] - Epoch 28/100 | Train Loss: 0.0094 | Train F1: 0.9968 | Val Loss: 0.0336 | Val F1: 0.9906
+2026-08-19 11:29:20,377 [INFO] - Sin mejora en 9/20 épocas.
+2026-08-19 11:29:20,500 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:29:20,502 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:30:05,449 [INFO] - Epoch 29/100 | Train Loss: 0.0096 | Train F1: 0.9940 | Val Loss: 0.0314 | Val F1: 0.9879
+2026-08-19 11:30:05,449 [INFO] - Sin mejora en 10/20 épocas.
+2026-08-19 11:30:05,565 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:30:05,566 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:30:49,721 [INFO] - Epoch 30/100 | Train Loss: 0.0065 | Train F1: 0.9988 | Val Loss: 0.0363 | Val F1: 0.9903
+2026-08-19 11:30:49,721 [INFO] - Sin mejora en 11/20 épocas.
+2026-08-19 11:30:49,838 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:30:49,839 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:31:33,744 [INFO] - Epoch 31/100 | Train Loss: 0.0081 | Train F1: 0.9970 | Val Loss: 0.0385 | Val F1: 0.9857
+2026-08-19 11:31:33,744 [INFO] - Sin mejora en 12/20 épocas.
+2026-08-19 11:31:33,866 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:31:33,867 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:32:16,481 [INFO] - Epoch 32/100 | Train Loss: 0.0066 | Train F1: 0.9982 | Val Loss: 0.0367 | Val F1: 0.9890
+2026-08-19 11:32:16,481 [INFO] - Sin mejora en 13/20 épocas.
+2026-08-19 11:32:16,597 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:32:16,599 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:32:59,199 [INFO] - Epoch 33/100 | Train Loss: 0.0051 | Train F1: 0.9973 | Val Loss: 0.0349 | Val F1: 0.9902
+2026-08-19 11:32:59,199 [INFO] - Sin mejora en 14/20 épocas.
+2026-08-19 11:32:59,316 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:32:59,317 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:33:42,642 [INFO] - Epoch 34/100 | Train Loss: 0.0062 | Train F1: 0.9980 | Val Loss: 0.0428 | Val F1: 0.9879
+2026-08-19 11:33:42,642 [INFO] - Sin mejora en 15/20 épocas.
+2026-08-19 11:33:42,761 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:33:42,763 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:34:25,995 [INFO] - Epoch 35/100 | Train Loss: 0.0049 | Train F1: 0.9988 | Val Loss: 0.0421 | Val F1: 0.9873
+2026-08-19 11:34:25,995 [INFO] - Sin mejora en 16/20 épocas.
+2026-08-19 11:34:26,118 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:34:26,120 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:35:09,814 [INFO] - Epoch 36/100 | Train Loss: 0.0060 | Train F1: 0.9965 | Val Loss: 0.0303 | Val F1: 0.9910
+2026-08-19 11:35:09,814 [INFO] - Sin mejora en 17/20 épocas.
+2026-08-19 11:35:09,934 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:35:09,936 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:35:53,559 [INFO] - Epoch 37/100 | Train Loss: 0.0042 | Train F1: 0.9980 | Val Loss: 0.0292 | Val F1: 0.9910
+2026-08-19 11:35:53,560 [INFO] - Sin mejora en 18/20 épocas.
+2026-08-19 11:35:53,678 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:35:53,679 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:36:37,732 [INFO] - Epoch 38/100 | Train Loss: 0.0060 | Train F1: 0.9962 | Val Loss: 0.0311 | Val F1: 0.9895
+2026-08-19 11:36:37,733 [INFO] - Sin mejora en 19/20 épocas.
+2026-08-19 11:36:37,848 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:36:37,850 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:37:21,540 [INFO] - Epoch 39/100 | Train Loss: 0.0040 | Train F1: 0.9981 | Val Loss: 0.0311 | Val F1: 0.9905
+2026-08-19 11:37:21,540 [INFO] - Sin mejora en 20/20 épocas.
+2026-08-19 11:37:21,655 [INFO] - Estado de entrenamiento guardado en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_resume.pt
+2026-08-19 11:37:21,656 [INFO] - Métricas guardadas en c:\Users\Flavio\Desktop\tesis_notebooks\data\data_modelo_clasificacion\digits_resnet\digits_resnet_metrics.csv
+2026-08-19 11:37:21,656 [INFO] - Early stopping activado.
+2026-08-19 11:37:21,657 [INFO] - Entrenamiento finalizado.

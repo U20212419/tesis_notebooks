@@ -1,0 +1,954 @@
+2026-08-19 04:02:37,111 [INFO] - Dirección: MAXIMIZE
+2026-08-19 04:02:37,111 [INFO] - Reanudando estudio. Se han completado 0 trials.
+2026-08-19 04:02:37,113 [INFO] - El sampler se ha inicializado con la semilla 42
+2026-08-19 04:04:28,709 [INFO] - 
+Trial 0 - Hiperparámetros:
+2026-08-19 04:04:28,710 [INFO] -   lr: 1.329291894316217e-05
+2026-08-19 04:04:28,711 [INFO] -   optimizer_name: AdamW
+2026-08-19 04:04:28,711 [INFO] -   dropout: 0.5704285838459496
+2026-08-19 04:04:28,712 [INFO] -   weight_decay: 0.004570563099801453
+2026-08-19 04:04:28,712 [INFO] -   batch_size: 32
+2026-08-19 04:04:28,713 [INFO] -   unfreeze_blocks: 4
+2026-08-19 04:05:10,750 [INFO] - [Trial 0] Epoch 1/50 | Train Loss: 1.4701 | Train Acc: 0.5378 | Train F1: 0.3204 | Val Loss: 0.4531 | Val Acc: 0.8590 | Val F1: 0.5792
+2026-08-19 04:05:46,042 [INFO] - [Trial 0] Epoch 2/50 | Train Loss: 0.5250 | Train Acc: 0.8499 | Train F1: 0.6061 | Val Loss: 0.2177 | Val Acc: 0.9314 | Val F1: 0.6910
+2026-08-19 04:06:23,521 [INFO] - [Trial 0] Epoch 3/50 | Train Loss: 0.3076 | Train Acc: 0.9128 | Train F1: 0.7445 | Val Loss: 0.1211 | Val Acc: 0.9618 | Val F1: 0.8514
+2026-08-19 04:07:10,673 [INFO] - [Trial 0] Epoch 4/50 | Train Loss: 0.2135 | Train Acc: 0.9389 | Train F1: 0.8275 | Val Loss: 0.0868 | Val Acc: 0.9776 | Val F1: 0.9473
+2026-08-19 04:07:51,544 [INFO] - [Trial 0] Epoch 5/50 | Train Loss: 0.1630 | Train Acc: 0.9546 | Train F1: 0.8900 | Val Loss: 0.0588 | Val Acc: 0.9880 | Val F1: 0.9875
+2026-08-19 04:08:36,282 [INFO] - [Trial 0] Epoch 6/50 | Train Loss: 0.1317 | Train Acc: 0.9649 | Train F1: 0.9230 | Val Loss: 0.0542 | Val Acc: 0.9874 | Val F1: 0.9849
+2026-08-19 04:09:20,747 [INFO] - [Trial 0] Epoch 7/50 | Train Loss: 0.1150 | Train Acc: 0.9676 | Train F1: 0.9338 | Val Loss: 0.0467 | Val Acc: 0.9886 | Val F1: 0.9888
+2026-08-19 04:10:02,605 [INFO] - [Trial 0] Epoch 8/50 | Train Loss: 0.0999 | Train Acc: 0.9722 | Train F1: 0.9514 | Val Loss: 0.0384 | Val Acc: 0.9912 | Val F1: 0.9893
+2026-08-19 04:10:46,785 [INFO] - [Trial 0] Epoch 9/50 | Train Loss: 0.0832 | Train Acc: 0.9769 | Train F1: 0.9548 | Val Loss: 0.0422 | Val Acc: 0.9886 | Val F1: 0.9894
+2026-08-19 04:11:30,963 [INFO] - [Trial 0] Epoch 10/50 | Train Loss: 0.0838 | Train Acc: 0.9771 | Train F1: 0.9577 | Val Loss: 0.0373 | Val Acc: 0.9905 | Val F1: 0.9910
+2026-08-19 04:12:15,000 [INFO] - [Trial 0] Epoch 11/50 | Train Loss: 0.0751 | Train Acc: 0.9793 | Train F1: 0.9607 | Val Loss: 0.0391 | Val Acc: 0.9889 | Val F1: 0.9886
+2026-08-19 04:12:58,991 [INFO] - [Trial 0] Epoch 12/50 | Train Loss: 0.0638 | Train Acc: 0.9814 | Train F1: 0.9684 | Val Loss: 0.0521 | Val Acc: 0.9820 | Val F1: 0.9825
+2026-08-19 04:13:43,303 [INFO] - [Trial 0] Epoch 13/50 | Train Loss: 0.0588 | Train Acc: 0.9844 | Train F1: 0.9739 | Val Loss: 0.0446 | Val Acc: 0.9867 | Val F1: 0.9853
+2026-08-19 04:14:29,197 [INFO] - [Trial 0] Epoch 14/50 | Train Loss: 0.0568 | Train Acc: 0.9844 | Train F1: 0.9738 | Val Loss: 0.0380 | Val Acc: 0.9880 | Val F1: 0.9870
+2026-08-19 04:15:14,720 [INFO] - [Trial 0] Epoch 15/50 | Train Loss: 0.0509 | Train Acc: 0.9858 | Train F1: 0.9763 | Val Loss: 0.0396 | Val Acc: 0.9867 | Val F1: 0.9843
+2026-08-19 04:15:59,450 [INFO] - [Trial 0] Epoch 16/50 | Train Loss: 0.0481 | Train Acc: 0.9862 | Train F1: 0.9797 | Val Loss: 0.0527 | Val Acc: 0.9829 | Val F1: 0.9856
+2026-08-19 04:16:43,736 [INFO] - [Trial 0] Epoch 17/50 | Train Loss: 0.0479 | Train Acc: 0.9863 | Train F1: 0.9746 | Val Loss: 0.0425 | Val Acc: 0.9864 | Val F1: 0.9881
+2026-08-19 04:17:27,892 [INFO] - [Trial 0] Epoch 18/50 | Train Loss: 0.0415 | Train Acc: 0.9879 | Train F1: 0.9808 | Val Loss: 0.0474 | Val Acc: 0.9861 | Val F1: 0.9878
+2026-08-19 04:18:11,961 [INFO] - [Trial 0] Epoch 19/50 | Train Loss: 0.0412 | Train Acc: 0.9881 | Train F1: 0.9813 | Val Loss: 0.0462 | Val Acc: 0.9842 | Val F1: 0.9856
+2026-08-19 04:18:55,548 [INFO] - [Trial 0] Epoch 20/50 | Train Loss: 0.0352 | Train Acc: 0.9892 | Train F1: 0.9809 | Val Loss: 0.0506 | Val Acc: 0.9836 | Val F1: 0.9868
+2026-08-19 04:18:55,562 [INFO] - Early stopping en época 20.
+2026-08-19 04:18:55,624 [INFO] - 
+Trial 1 - Hiperparámetros:
+2026-08-19 04:18:55,625 [INFO] -   lr: 6.358358856676247e-05
+2026-08-19 04:18:55,625 [INFO] -   optimizer_name: AdamW
+2026-08-19 04:18:55,626 [INFO] -   dropout: 0.4248435466776273
+2026-08-19 04:18:55,626 [INFO] -   weight_decay: 1.2674255898937221e-06
+2026-08-19 04:18:55,627 [INFO] -   batch_size: 32
+2026-08-19 04:18:55,628 [INFO] -   unfreeze_blocks: 0
+2026-08-19 04:19:38,852 [INFO] - [Trial 1] Epoch 1/50 | Train Loss: 2.0910 | Train Acc: 0.2650 | Train F1: 0.1007 | Val Loss: 1.6558 | Val Acc: 0.5136 | Val F1: 0.1600
+2026-08-19 04:20:22,920 [INFO] - [Trial 1] Epoch 2/50 | Train Loss: 1.8123 | Train Acc: 0.3987 | Train F1: 0.1480 | Val Loss: 1.4146 | Val Acc: 0.6173 | Val F1: 0.1954
+2026-08-19 04:21:06,910 [INFO] - [Trial 1] Epoch 3/50 | Train Loss: 1.6751 | Train Acc: 0.4640 | Train F1: 0.1813 | Val Loss: 1.2825 | Val Acc: 0.6356 | Val F1: 0.2150
+2026-08-19 04:21:51,101 [INFO] - [Trial 1] Epoch 4/50 | Train Loss: 1.5931 | Train Acc: 0.4918 | Train F1: 0.2004 | Val Loss: 1.1874 | Val Acc: 0.6549 | Val F1: 0.2338
+2026-08-19 04:22:35,521 [INFO] - [Trial 1] Epoch 5/50 | Train Loss: 1.5178 | Train Acc: 0.5136 | Train F1: 0.2124 | Val Loss: 1.1336 | Val Acc: 0.6647 | Val F1: 0.2505
+2026-08-19 04:23:19,873 [INFO] - [Trial 1] Epoch 6/50 | Train Loss: 1.4870 | Train Acc: 0.5302 | Train F1: 0.2261 | Val Loss: 1.0676 | Val Acc: 0.6710 | Val F1: 0.2549
+2026-08-19 04:24:03,730 [INFO] - [Trial 1] Epoch 7/50 | Train Loss: 1.4390 | Train Acc: 0.5430 | Train F1: 0.2373 | Val Loss: 1.0472 | Val Acc: 0.6760 | Val F1: 0.2861
+2026-08-19 04:24:47,900 [INFO] - [Trial 1] Epoch 8/50 | Train Loss: 1.3998 | Train Acc: 0.5536 | Train F1: 0.2485 | Val Loss: 0.9971 | Val Acc: 0.6912 | Val F1: 0.3038
+2026-08-19 04:25:31,892 [INFO] - [Trial 1] Epoch 9/50 | Train Loss: 1.3767 | Train Acc: 0.5609 | Train F1: 0.2618 | Val Loss: 0.9728 | Val Acc: 0.7061 | Val F1: 0.3153
+2026-08-19 04:26:16,117 [INFO] - [Trial 1] Epoch 10/50 | Train Loss: 1.3505 | Train Acc: 0.5736 | Train F1: 0.2713 | Val Loss: 0.9413 | Val Acc: 0.7159 | Val F1: 0.3387
+2026-08-19 04:27:00,325 [INFO] - [Trial 1] Epoch 11/50 | Train Loss: 1.3397 | Train Acc: 0.5718 | Train F1: 0.2735 | Val Loss: 0.9181 | Val Acc: 0.7070 | Val F1: 0.3374
+2026-08-19 04:27:44,496 [INFO] - [Trial 1] Epoch 12/50 | Train Loss: 1.3149 | Train Acc: 0.5767 | Train F1: 0.2790 | Val Loss: 0.9048 | Val Acc: 0.7206 | Val F1: 0.3468
+2026-08-19 04:28:28,459 [INFO] - [Trial 1] Epoch 13/50 | Train Loss: 1.3035 | Train Acc: 0.5838 | Train F1: 0.2881 | Val Loss: 0.8919 | Val Acc: 0.7231 | Val F1: 0.3583
+2026-08-19 04:29:12,659 [INFO] - [Trial 1] Epoch 14/50 | Train Loss: 1.2884 | Train Acc: 0.5855 | Train F1: 0.2951 | Val Loss: 0.8760 | Val Acc: 0.7250 | Val F1: 0.3681
+2026-08-19 04:29:56,721 [INFO] - [Trial 1] Epoch 15/50 | Train Loss: 1.2669 | Train Acc: 0.5903 | Train F1: 0.2988 | Val Loss: 0.8688 | Val Acc: 0.7348 | Val F1: 0.3762
+2026-08-19 04:30:40,903 [INFO] - [Trial 1] Epoch 16/50 | Train Loss: 1.2625 | Train Acc: 0.5963 | Train F1: 0.3123 | Val Loss: 0.8354 | Val Acc: 0.7449 | Val F1: 0.4000
+2026-08-19 04:31:24,940 [INFO] - [Trial 1] Epoch 17/50 | Train Loss: 1.2568 | Train Acc: 0.5951 | Train F1: 0.3134 | Val Loss: 0.8309 | Val Acc: 0.7367 | Val F1: 0.3862
+2026-08-19 04:32:08,982 [INFO] - [Trial 1] Epoch 18/50 | Train Loss: 1.2511 | Train Acc: 0.5934 | Train F1: 0.3114 | Val Loss: 0.8172 | Val Acc: 0.7418 | Val F1: 0.3940
+2026-08-19 04:32:53,083 [INFO] - [Trial 1] Epoch 19/50 | Train Loss: 1.2502 | Train Acc: 0.5971 | Train F1: 0.3178 | Val Loss: 0.8177 | Val Acc: 0.7437 | Val F1: 0.3997
+2026-08-19 04:33:37,271 [INFO] - [Trial 1] Epoch 20/50 | Train Loss: 1.2289 | Train Acc: 0.6014 | Train F1: 0.3334 | Val Loss: 0.8038 | Val Acc: 0.7465 | Val F1: 0.3991
+2026-08-19 04:34:21,320 [INFO] - [Trial 1] Epoch 21/50 | Train Loss: 1.2414 | Train Acc: 0.6011 | Train F1: 0.3320 | Val Loss: 0.7927 | Val Acc: 0.7541 | Val F1: 0.4139
+2026-08-19 04:35:05,499 [INFO] - [Trial 1] Epoch 22/50 | Train Loss: 1.2179 | Train Acc: 0.6055 | Train F1: 0.3382 | Val Loss: 0.7973 | Val Acc: 0.7453 | Val F1: 0.4041
+2026-08-19 04:35:49,491 [INFO] - [Trial 1] Epoch 23/50 | Train Loss: 1.2218 | Train Acc: 0.6000 | Train F1: 0.3325 | Val Loss: 0.7943 | Val Acc: 0.7516 | Val F1: 0.4177
+2026-08-19 04:36:33,264 [INFO] - [Trial 1] Epoch 24/50 | Train Loss: 1.2197 | Train Acc: 0.6054 | Train F1: 0.3401 | Val Loss: 0.7778 | Val Acc: 0.7535 | Val F1: 0.4224
+2026-08-19 04:37:17,365 [INFO] - [Trial 1] Epoch 25/50 | Train Loss: 1.2034 | Train Acc: 0.6094 | Train F1: 0.3412 | Val Loss: 0.7702 | Val Acc: 0.7661 | Val F1: 0.4406
+2026-08-19 04:38:01,491 [INFO] - [Trial 1] Epoch 26/50 | Train Loss: 1.2033 | Train Acc: 0.6079 | Train F1: 0.3425 | Val Loss: 0.7735 | Val Acc: 0.7604 | Val F1: 0.4312
+2026-08-19 04:38:45,303 [INFO] - [Trial 1] Epoch 27/50 | Train Loss: 1.1875 | Train Acc: 0.6170 | Train F1: 0.3552 | Val Loss: 0.7482 | Val Acc: 0.7633 | Val F1: 0.4266
+2026-08-19 04:39:29,091 [INFO] - [Trial 1] Epoch 28/50 | Train Loss: 1.1977 | Train Acc: 0.6125 | Train F1: 0.3516 | Val Loss: 0.7597 | Val Acc: 0.7668 | Val F1: 0.4480
+2026-08-19 04:40:13,155 [INFO] - [Trial 1] Epoch 29/50 | Train Loss: 1.1967 | Train Acc: 0.6121 | Train F1: 0.3502 | Val Loss: 0.7554 | Val Acc: 0.7592 | Val F1: 0.4273
+2026-08-19 04:40:56,940 [INFO] - [Trial 1] Epoch 30/50 | Train Loss: 1.1920 | Train Acc: 0.6110 | Train F1: 0.3578 | Val Loss: 0.7612 | Val Acc: 0.7636 | Val F1: 0.4364
+2026-08-19 04:41:40,741 [INFO] - [Trial 1] Epoch 31/50 | Train Loss: 1.1746 | Train Acc: 0.6172 | Train F1: 0.3572 | Val Loss: 0.7356 | Val Acc: 0.7690 | Val F1: 0.4642
+2026-08-19 04:42:24,347 [INFO] - [Trial 1] Epoch 32/50 | Train Loss: 1.1903 | Train Acc: 0.6103 | Train F1: 0.3541 | Val Loss: 0.7316 | Val Acc: 0.7671 | Val F1: 0.4444
+2026-08-19 04:43:07,961 [INFO] - [Trial 1] Epoch 33/50 | Train Loss: 1.1768 | Train Acc: 0.6178 | Train F1: 0.3715 | Val Loss: 0.7445 | Val Acc: 0.7718 | Val F1: 0.4651
+2026-08-19 04:43:51,549 [INFO] - [Trial 1] Epoch 34/50 | Train Loss: 1.1743 | Train Acc: 0.6143 | Train F1: 0.3603 | Val Loss: 0.7342 | Val Acc: 0.7718 | Val F1: 0.4774
+2026-08-19 04:44:35,293 [INFO] - [Trial 1] Epoch 35/50 | Train Loss: 1.1741 | Train Acc: 0.6151 | Train F1: 0.3738 | Val Loss: 0.7348 | Val Acc: 0.7668 | Val F1: 0.4595
+2026-08-19 04:45:19,313 [INFO] - [Trial 1] Epoch 36/50 | Train Loss: 1.1821 | Train Acc: 0.6149 | Train F1: 0.3675 | Val Loss: 0.7465 | Val Acc: 0.7677 | Val F1: 0.4735
+2026-08-19 04:46:03,138 [INFO] - [Trial 1] Epoch 37/50 | Train Loss: 1.1738 | Train Acc: 0.6150 | Train F1: 0.3679 | Val Loss: 0.7210 | Val Acc: 0.7674 | Val F1: 0.4598
+2026-08-19 04:46:47,312 [INFO] - [Trial 1] Epoch 38/50 | Train Loss: 1.1632 | Train Acc: 0.6245 | Train F1: 0.3889 | Val Loss: 0.7104 | Val Acc: 0.7721 | Val F1: 0.4721
+2026-08-19 04:47:31,504 [INFO] - [Trial 1] Epoch 39/50 | Train Loss: 1.1661 | Train Acc: 0.6213 | Train F1: 0.3837 | Val Loss: 0.7136 | Val Acc: 0.7791 | Val F1: 0.4926
+2026-08-19 04:48:15,354 [INFO] - [Trial 1] Epoch 40/50 | Train Loss: 1.1749 | Train Acc: 0.6180 | Train F1: 0.3794 | Val Loss: 0.7091 | Val Acc: 0.7690 | Val F1: 0.4570
+2026-08-19 04:48:59,502 [INFO] - [Trial 1] Epoch 41/50 | Train Loss: 1.1665 | Train Acc: 0.6176 | Train F1: 0.3697 | Val Loss: 0.7128 | Val Acc: 0.7671 | Val F1: 0.4680
+2026-08-19 04:49:43,588 [INFO] - [Trial 1] Epoch 42/50 | Train Loss: 1.1723 | Train Acc: 0.6119 | Train F1: 0.3762 | Val Loss: 0.7036 | Val Acc: 0.7677 | Val F1: 0.4781
+2026-08-19 04:50:27,294 [INFO] - [Trial 1] Epoch 43/50 | Train Loss: 1.1708 | Train Acc: 0.6155 | Train F1: 0.3787 | Val Loss: 0.7128 | Val Acc: 0.7822 | Val F1: 0.5017
+2026-08-19 04:51:11,318 [INFO] - [Trial 1] Epoch 44/50 | Train Loss: 1.1618 | Train Acc: 0.6216 | Train F1: 0.3761 | Val Loss: 0.6994 | Val Acc: 0.7690 | Val F1: 0.4816
+2026-08-19 04:51:55,328 [INFO] - [Trial 1] Epoch 45/50 | Train Loss: 1.1653 | Train Acc: 0.6235 | Train F1: 0.3809 | Val Loss: 0.7026 | Val Acc: 0.7683 | Val F1: 0.4835
+2026-08-19 04:52:38,971 [INFO] - [Trial 1] Epoch 46/50 | Train Loss: 1.1736 | Train Acc: 0.6146 | Train F1: 0.3680 | Val Loss: 0.6995 | Val Acc: 0.7715 | Val F1: 0.4793
+2026-08-19 04:53:22,921 [INFO] - [Trial 1] Epoch 47/50 | Train Loss: 1.1518 | Train Acc: 0.6224 | Train F1: 0.3848 | Val Loss: 0.6931 | Val Acc: 0.7737 | Val F1: 0.4831
+2026-08-19 04:54:07,108 [INFO] - [Trial 1] Epoch 48/50 | Train Loss: 1.1651 | Train Acc: 0.6235 | Train F1: 0.3729 | Val Loss: 0.6956 | Val Acc: 0.7775 | Val F1: 0.4830
+2026-08-19 04:54:51,313 [INFO] - [Trial 1] Epoch 49/50 | Train Loss: 1.1569 | Train Acc: 0.6280 | Train F1: 0.3795 | Val Loss: 0.6872 | Val Acc: 0.7797 | Val F1: 0.5110
+2026-08-19 04:55:35,122 [INFO] - [Trial 1] Epoch 50/50 | Train Loss: 1.1529 | Train Acc: 0.6235 | Train F1: 0.3955 | Val Loss: 0.6938 | Val Acc: 0.7759 | Val F1: 0.4826
+2026-08-19 04:55:35,190 [INFO] - 
+Trial 2 - Hiperparámetros:
+2026-08-19 04:55:35,191 [INFO] -   lr: 8.179499475211674e-06
+2026-08-19 04:55:35,192 [INFO] -   optimizer_name: AdamW
+2026-08-19 04:55:35,192 [INFO] -   dropout: 0.3148538589793427
+2026-08-19 04:55:35,193 [INFO] -   weight_decay: 0.00014445251022763054
+2026-08-19 04:55:35,193 [INFO] -   batch_size: 64
+2026-08-19 04:55:35,194 [INFO] -   unfreeze_blocks: 1
+2026-08-19 04:56:18,606 [INFO] - [Trial 2] Epoch 1/50 | Train Loss: 1.9381 | Train Acc: 0.3830 | Train F1: 0.2056 | Val Loss: 1.0781 | Val Acc: 0.6779 | Val F1: 0.2595
+2026-08-19 04:57:02,799 [INFO] - [Trial 2] Epoch 2/50 | Train Loss: 1.1487 | Train Acc: 0.6634 | Train F1: 0.3530 | Val Loss: 0.6806 | Val Acc: 0.7819 | Val F1: 0.4380
+2026-08-19 04:57:47,007 [INFO] - [Trial 2] Epoch 3/50 | Train Loss: 0.8379 | Train Acc: 0.7583 | Train F1: 0.4902 | Val Loss: 0.5096 | Val Acc: 0.8590 | Val F1: 0.5902
+2026-08-19 04:58:31,417 [INFO] - [Trial 2] Epoch 4/50 | Train Loss: 0.6615 | Train Acc: 0.8120 | Train F1: 0.5515 | Val Loss: 0.4200 | Val Acc: 0.8850 | Val F1: 0.6227
+2026-08-19 04:59:16,051 [INFO] - [Trial 2] Epoch 5/50 | Train Loss: 0.5477 | Train Acc: 0.8427 | Train F1: 0.5928 | Val Loss: 0.3507 | Val Acc: 0.8976 | Val F1: 0.6497
+2026-08-19 05:00:00,407 [INFO] - [Trial 2] Epoch 6/50 | Train Loss: 0.4684 | Train Acc: 0.8689 | Train F1: 0.6452 | Val Loss: 0.3118 | Val Acc: 0.9093 | Val F1: 0.6828
+2026-08-19 05:00:44,472 [INFO] - [Trial 2] Epoch 7/50 | Train Loss: 0.4084 | Train Acc: 0.8824 | Train F1: 0.6681 | Val Loss: 0.2816 | Val Acc: 0.9166 | Val F1: 0.6953
+2026-08-19 05:01:28,860 [INFO] - [Trial 2] Epoch 8/50 | Train Loss: 0.3647 | Train Acc: 0.8973 | Train F1: 0.7060 | Val Loss: 0.2380 | Val Acc: 0.9289 | Val F1: 0.7320
+2026-08-19 05:02:13,226 [INFO] - [Trial 2] Epoch 9/50 | Train Loss: 0.3300 | Train Acc: 0.9052 | Train F1: 0.7391 | Val Loss: 0.2218 | Val Acc: 0.9346 | Val F1: 0.7843
+2026-08-19 05:02:57,446 [INFO] - [Trial 2] Epoch 10/50 | Train Loss: 0.3011 | Train Acc: 0.9153 | Train F1: 0.7815 | Val Loss: 0.2092 | Val Acc: 0.9355 | Val F1: 0.8165
+2026-08-19 05:03:41,399 [INFO] - [Trial 2] Epoch 11/50 | Train Loss: 0.2804 | Train Acc: 0.9169 | Train F1: 0.8090 | Val Loss: 0.1892 | Val Acc: 0.9447 | Val F1: 0.8774
+2026-08-19 05:04:25,422 [INFO] - [Trial 2] Epoch 12/50 | Train Loss: 0.2630 | Train Acc: 0.9238 | Train F1: 0.8257 | Val Loss: 0.1739 | Val Acc: 0.9507 | Val F1: 0.9027
+2026-08-19 05:05:09,612 [INFO] - [Trial 2] Epoch 13/50 | Train Loss: 0.2417 | Train Acc: 0.9328 | Train F1: 0.8474 | Val Loss: 0.1602 | Val Acc: 0.9532 | Val F1: 0.9117
+2026-08-19 05:05:54,011 [INFO] - [Trial 2] Epoch 14/50 | Train Loss: 0.2269 | Train Acc: 0.9346 | Train F1: 0.8626 | Val Loss: 0.1553 | Val Acc: 0.9567 | Val F1: 0.9225
+2026-08-19 05:06:38,619 [INFO] - [Trial 2] Epoch 15/50 | Train Loss: 0.2139 | Train Acc: 0.9365 | Train F1: 0.8686 | Val Loss: 0.1462 | Val Acc: 0.9576 | Val F1: 0.9240
+2026-08-19 05:07:23,295 [INFO] - [Trial 2] Epoch 16/50 | Train Loss: 0.1939 | Train Acc: 0.9463 | Train F1: 0.8831 | Val Loss: 0.1412 | Val Acc: 0.9576 | Val F1: 0.9288
+2026-08-19 05:08:07,612 [INFO] - [Trial 2] Epoch 17/50 | Train Loss: 0.1904 | Train Acc: 0.9421 | Train F1: 0.8881 | Val Loss: 0.1239 | Val Acc: 0.9652 | Val F1: 0.9419
+2026-08-19 05:08:52,410 [INFO] - [Trial 2] Epoch 18/50 | Train Loss: 0.1847 | Train Acc: 0.9443 | Train F1: 0.8849 | Val Loss: 0.1234 | Val Acc: 0.9643 | Val F1: 0.9398
+2026-08-19 05:09:36,915 [INFO] - [Trial 2] Epoch 19/50 | Train Loss: 0.1747 | Train Acc: 0.9481 | Train F1: 0.8947 | Val Loss: 0.1197 | Val Acc: 0.9646 | Val F1: 0.9434
+2026-08-19 05:10:21,224 [INFO] - [Trial 2] Epoch 20/50 | Train Loss: 0.1617 | Train Acc: 0.9533 | Train F1: 0.9079 | Val Loss: 0.1200 | Val Acc: 0.9633 | Val F1: 0.9385
+2026-08-19 05:11:05,604 [INFO] - [Trial 2] Epoch 21/50 | Train Loss: 0.1553 | Train Acc: 0.9545 | Train F1: 0.9108 | Val Loss: 0.1106 | Val Acc: 0.9665 | Val F1: 0.9474
+2026-08-19 05:11:50,052 [INFO] - [Trial 2] Epoch 22/50 | Train Loss: 0.1562 | Train Acc: 0.9534 | Train F1: 0.9028 | Val Loss: 0.1163 | Val Acc: 0.9655 | Val F1: 0.9459
+2026-08-19 05:12:34,272 [INFO] - [Trial 2] Epoch 23/50 | Train Loss: 0.1519 | Train Acc: 0.9541 | Train F1: 0.9122 | Val Loss: 0.1155 | Val Acc: 0.9659 | Val F1: 0.9485
+2026-08-19 05:13:18,822 [INFO] - [Trial 2] Epoch 24/50 | Train Loss: 0.1458 | Train Acc: 0.9573 | Train F1: 0.9199 | Val Loss: 0.1156 | Val Acc: 0.9655 | Val F1: 0.9468
+2026-08-19 05:14:03,440 [INFO] - [Trial 2] Epoch 25/50 | Train Loss: 0.1410 | Train Acc: 0.9583 | Train F1: 0.9184 | Val Loss: 0.1053 | Val Acc: 0.9687 | Val F1: 0.9541
+2026-08-19 05:14:47,845 [INFO] - [Trial 2] Epoch 26/50 | Train Loss: 0.1368 | Train Acc: 0.9573 | Train F1: 0.9205 | Val Loss: 0.1164 | Val Acc: 0.9652 | Val F1: 0.9434
+2026-08-19 05:15:32,216 [INFO] - [Trial 2] Epoch 27/50 | Train Loss: 0.1297 | Train Acc: 0.9624 | Train F1: 0.9259 | Val Loss: 0.0987 | Val Acc: 0.9690 | Val F1: 0.9508
+2026-08-19 05:16:16,894 [INFO] - [Trial 2] Epoch 28/50 | Train Loss: 0.1273 | Train Acc: 0.9619 | Train F1: 0.9307 | Val Loss: 0.1026 | Val Acc: 0.9700 | Val F1: 0.9494
+2026-08-19 05:17:01,274 [INFO] - [Trial 2] Epoch 29/50 | Train Loss: 0.1271 | Train Acc: 0.9602 | Train F1: 0.9237 | Val Loss: 0.1007 | Val Acc: 0.9741 | Val F1: 0.9623
+2026-08-19 05:17:45,850 [INFO] - [Trial 2] Epoch 30/50 | Train Loss: 0.1293 | Train Acc: 0.9599 | Train F1: 0.9267 | Val Loss: 0.1095 | Val Acc: 0.9684 | Val F1: 0.9552
+2026-08-19 05:18:30,431 [INFO] - [Trial 2] Epoch 31/50 | Train Loss: 0.1181 | Train Acc: 0.9648 | Train F1: 0.9337 | Val Loss: 0.1065 | Val Acc: 0.9690 | Val F1: 0.9542
+2026-08-19 05:19:14,824 [INFO] - [Trial 2] Epoch 32/50 | Train Loss: 0.1164 | Train Acc: 0.9659 | Train F1: 0.9407 | Val Loss: 0.1016 | Val Acc: 0.9719 | Val F1: 0.9607
+2026-08-19 05:19:59,437 [INFO] - [Trial 2] Epoch 33/50 | Train Loss: 0.1126 | Train Acc: 0.9661 | Train F1: 0.9424 | Val Loss: 0.1050 | Val Acc: 0.9700 | Val F1: 0.9580
+2026-08-19 05:20:43,806 [INFO] - [Trial 2] Epoch 34/50 | Train Loss: 0.1064 | Train Acc: 0.9694 | Train F1: 0.9504 | Val Loss: 0.1000 | Val Acc: 0.9728 | Val F1: 0.9594
+2026-08-19 05:21:27,682 [INFO] - [Trial 2] Epoch 35/50 | Train Loss: 0.1048 | Train Acc: 0.9680 | Train F1: 0.9389 | Val Loss: 0.1017 | Val Acc: 0.9684 | Val F1: 0.9530
+2026-08-19 05:22:11,816 [INFO] - [Trial 2] Epoch 36/50 | Train Loss: 0.1079 | Train Acc: 0.9671 | Train F1: 0.9397 | Val Loss: 0.0980 | Val Acc: 0.9706 | Val F1: 0.9572
+2026-08-19 05:22:56,076 [INFO] - [Trial 2] Epoch 37/50 | Train Loss: 0.1054 | Train Acc: 0.9679 | Train F1: 0.9337 | Val Loss: 0.1005 | Val Acc: 0.9709 | Val F1: 0.9593
+2026-08-19 05:23:40,074 [INFO] - [Trial 2] Epoch 38/50 | Train Loss: 0.1038 | Train Acc: 0.9694 | Train F1: 0.9472 | Val Loss: 0.1022 | Val Acc: 0.9700 | Val F1: 0.9539
+2026-08-19 05:24:24,457 [INFO] - [Trial 2] Epoch 39/50 | Train Loss: 0.1081 | Train Acc: 0.9675 | Train F1: 0.9415 | Val Loss: 0.0952 | Val Acc: 0.9731 | Val F1: 0.9627
+2026-08-19 05:25:08,642 [INFO] - [Trial 2] Epoch 40/50 | Train Loss: 0.1066 | Train Acc: 0.9676 | Train F1: 0.9354 | Val Loss: 0.0934 | Val Acc: 0.9747 | Val F1: 0.9651
+2026-08-19 05:25:52,870 [INFO] - [Trial 2] Epoch 41/50 | Train Loss: 0.1034 | Train Acc: 0.9707 | Train F1: 0.9457 | Val Loss: 0.0994 | Val Acc: 0.9719 | Val F1: 0.9601
+2026-08-19 05:26:37,050 [INFO] - [Trial 2] Epoch 42/50 | Train Loss: 0.0987 | Train Acc: 0.9701 | Train F1: 0.9365 | Val Loss: 0.0941 | Val Acc: 0.9741 | Val F1: 0.9617
+2026-08-19 05:27:21,431 [INFO] - [Trial 2] Epoch 43/50 | Train Loss: 0.0997 | Train Acc: 0.9697 | Train F1: 0.9450 | Val Loss: 0.0982 | Val Acc: 0.9709 | Val F1: 0.9612
+2026-08-19 05:28:05,635 [INFO] - [Trial 2] Epoch 44/50 | Train Loss: 0.0931 | Train Acc: 0.9715 | Train F1: 0.9454 | Val Loss: 0.0922 | Val Acc: 0.9747 | Val F1: 0.9631
+2026-08-19 05:28:50,016 [INFO] - [Trial 2] Epoch 45/50 | Train Loss: 0.1019 | Train Acc: 0.9697 | Train F1: 0.9475 | Val Loss: 0.0948 | Val Acc: 0.9716 | Val F1: 0.9566
+2026-08-19 05:29:34,435 [INFO] - [Trial 2] Epoch 46/50 | Train Loss: 0.1027 | Train Acc: 0.9693 | Train F1: 0.9429 | Val Loss: 0.0859 | Val Acc: 0.9769 | Val F1: 0.9667
+2026-08-19 05:30:18,820 [INFO] - [Trial 2] Epoch 47/50 | Train Loss: 0.0977 | Train Acc: 0.9708 | Train F1: 0.9417 | Val Loss: 0.0955 | Val Acc: 0.9725 | Val F1: 0.9603
+2026-08-19 05:31:03,440 [INFO] - [Trial 2] Epoch 48/50 | Train Loss: 0.0940 | Train Acc: 0.9724 | Train F1: 0.9499 | Val Loss: 0.0984 | Val Acc: 0.9712 | Val F1: 0.9607
+2026-08-19 05:31:47,840 [INFO] - [Trial 2] Epoch 49/50 | Train Loss: 0.0935 | Train Acc: 0.9714 | Train F1: 0.9464 | Val Loss: 0.1007 | Val Acc: 0.9700 | Val F1: 0.9597
+2026-08-19 05:32:32,242 [INFO] - [Trial 2] Epoch 50/50 | Train Loss: 0.0930 | Train Acc: 0.9727 | Train F1: 0.9517 | Val Loss: 0.0960 | Val Acc: 0.9716 | Val F1: 0.9630
+2026-08-19 05:32:32,307 [INFO] - 
+Trial 3 - Hiperparámetros:
+2026-08-19 05:32:32,308 [INFO] -   lr: 2.334586407601622e-05
+2026-08-19 05:32:32,309 [INFO] -   optimizer_name: AdamW
+2026-08-19 05:32:32,309 [INFO] -   dropout: 0.4711055768358081
+2026-08-19 05:32:32,310 [INFO] -   weight_decay: 9.962513222055122e-06
+2026-08-19 05:32:32,311 [INFO] -   batch_size: 256
+2026-08-19 05:32:32,311 [INFO] -   unfreeze_blocks: 0
+2026-08-19 05:33:15,280 [INFO] - [Trial 3] Epoch 1/50 | Train Loss: 2.7487 | Train Acc: 0.0827 | Train F1: 0.0586 | Val Loss: 2.3541 | Val Acc: 0.1637 | Val F1: 0.0724
+2026-08-19 05:33:59,456 [INFO] - [Trial 3] Epoch 2/50 | Train Loss: 2.4515 | Train Acc: 0.1281 | Train F1: 0.0756 | Val Loss: 2.1394 | Val Acc: 0.1881 | Val F1: 0.0682
+2026-08-19 05:34:43,465 [INFO] - [Trial 3] Epoch 3/50 | Train Loss: 2.3056 | Train Acc: 0.1648 | Train F1: 0.0798 | Val Loss: 2.0356 | Val Acc: 0.2045 | Val F1: 0.0680
+2026-08-19 05:34:43,474 [INFO] - Trial 3 podado por pruner.
+2026-08-19 05:34:43,523 [INFO] - 
+Trial 4 - Hiperparámetros:
+2026-08-19 05:34:43,524 [INFO] -   lr: 1.5673095467235414e-06
+2026-08-19 05:34:43,524 [INFO] -   optimizer_name: AdamW
+2026-08-19 05:34:43,525 [INFO] -   dropout: 0.5693313223519999
+2026-08-19 05:34:43,525 [INFO] -   weight_decay: 0.0673224892077534
+2026-08-19 05:34:43,526 [INFO] -   batch_size: 32
+2026-08-19 05:34:43,527 [INFO] -   unfreeze_blocks: 2
+2026-08-19 05:35:27,204 [INFO] - [Trial 4] Epoch 1/50 | Train Loss: 2.5671 | Train Acc: 0.1284 | Train F1: 0.0885 | Val Loss: 1.9449 | Val Acc: 0.4880 | Val F1: 0.2377
+2026-08-19 05:36:11,800 [INFO] - [Trial 4] Epoch 2/50 | Train Loss: 2.0367 | Train Acc: 0.3366 | Train F1: 0.1806 | Val Loss: 1.3910 | Val Acc: 0.6764 | Val F1: 0.2945
+2026-08-19 05:36:56,167 [INFO] - [Trial 4] Epoch 3/50 | Train Loss: 1.6747 | Train Acc: 0.4906 | Train F1: 0.2435 | Val Loss: 1.0736 | Val Acc: 0.7092 | Val F1: 0.3090
+2026-08-19 05:36:56,176 [INFO] - Trial 4 podado por pruner.
+2026-08-19 05:36:56,224 [INFO] - 
+Trial 5 - Hiperparámetros:
+2026-08-19 05:36:56,225 [INFO] -   lr: 2.3233503515390116e-06
+2026-08-19 05:36:56,226 [INFO] -   optimizer_name: AdamW
+2026-08-19 05:36:56,226 [INFO] -   dropout: 0.2971061460667621
+2026-08-19 05:36:56,227 [INFO] -   weight_decay: 1.485739280627925e-06
+2026-08-19 05:36:56,227 [INFO] -   batch_size: 32
+2026-08-19 05:36:56,228 [INFO] -   unfreeze_blocks: 2
+2026-08-19 05:37:39,938 [INFO] - [Trial 5] Epoch 1/50 | Train Loss: 2.1325 | Train Acc: 0.3065 | Train F1: 0.1666 | Val Loss: 1.5049 | Val Acc: 0.6258 | Val F1: 0.2758
+2026-08-19 05:38:24,153 [INFO] - [Trial 5] Epoch 2/50 | Train Loss: 1.4719 | Train Acc: 0.5807 | Train F1: 0.2784 | Val Loss: 0.9850 | Val Acc: 0.7310 | Val F1: 0.3372
+2026-08-19 05:39:08,396 [INFO] - [Trial 5] Epoch 3/50 | Train Loss: 1.1358 | Train Acc: 0.6716 | Train F1: 0.3599 | Val Loss: 0.7424 | Val Acc: 0.7920 | Val F1: 0.4415
+2026-08-19 05:39:08,407 [INFO] - Trial 5 podado por pruner.
+2026-08-19 05:39:08,472 [INFO] - 
+Trial 6 - Hiperparámetros:
+2026-08-19 05:39:08,473 [INFO] -   lr: 4.366473592979636e-05
+2026-08-19 05:39:08,474 [INFO] -   optimizer_name: AdamW
+2026-08-19 05:39:08,475 [INFO] -   dropout: 0.11091267331531622
+2026-08-19 05:39:08,475 [INFO] -   weight_decay: 0.07045683638454503
+2026-08-19 05:39:08,476 [INFO] -   batch_size: 64
+2026-08-19 05:39:08,476 [INFO] -   unfreeze_blocks: 4
+2026-08-19 05:39:51,903 [INFO] - [Trial 6] Epoch 1/50 | Train Loss: 0.6553 | Train Acc: 0.8122 | Train F1: 0.5720 | Val Loss: 0.1577 | Val Acc: 0.9504 | Val F1: 0.8493
+2026-08-19 05:40:36,013 [INFO] - [Trial 6] Epoch 2/50 | Train Loss: 0.1508 | Train Acc: 0.9591 | Train F1: 0.9071 | Val Loss: 0.0784 | Val Acc: 0.9804 | Val F1: 0.9712
+2026-08-19 05:41:20,289 [INFO] - [Trial 6] Epoch 3/50 | Train Loss: 0.0936 | Train Acc: 0.9745 | Train F1: 0.9506 | Val Loss: 0.0541 | Val Acc: 0.9845 | Val F1: 0.9828
+2026-08-19 05:42:04,113 [INFO] - [Trial 6] Epoch 4/50 | Train Loss: 0.0767 | Train Acc: 0.9783 | Train F1: 0.9618 | Val Loss: 0.0531 | Val Acc: 0.9848 | Val F1: 0.9838
+2026-08-19 05:42:48,082 [INFO] - [Trial 6] Epoch 5/50 | Train Loss: 0.0642 | Train Acc: 0.9822 | Train F1: 0.9730 | Val Loss: 0.0535 | Val Acc: 0.9829 | Val F1: 0.9860
+2026-08-19 05:43:32,195 [INFO] - [Trial 6] Epoch 6/50 | Train Loss: 0.0498 | Train Acc: 0.9857 | Train F1: 0.9762 | Val Loss: 0.0626 | Val Acc: 0.9810 | Val F1: 0.9837
+2026-08-19 05:44:16,473 [INFO] - [Trial 6] Epoch 7/50 | Train Loss: 0.0482 | Train Acc: 0.9863 | Train F1: 0.9823 | Val Loss: 0.0305 | Val Acc: 0.9915 | Val F1: 0.9882
+2026-08-19 05:45:00,471 [INFO] - [Trial 6] Epoch 8/50 | Train Loss: 0.0419 | Train Acc: 0.9875 | Train F1: 0.9826 | Val Loss: 0.0464 | Val Acc: 0.9858 | Val F1: 0.9842
+2026-08-19 05:45:44,538 [INFO] - [Trial 6] Epoch 9/50 | Train Loss: 0.0363 | Train Acc: 0.9898 | Train F1: 0.9868 | Val Loss: 0.0516 | Val Acc: 0.9836 | Val F1: 0.9857
+2026-08-19 05:46:28,600 [INFO] - [Trial 6] Epoch 10/50 | Train Loss: 0.0363 | Train Acc: 0.9888 | Train F1: 0.9806 | Val Loss: 0.0432 | Val Acc: 0.9861 | Val F1: 0.9832
+2026-08-19 05:47:12,515 [INFO] - [Trial 6] Epoch 11/50 | Train Loss: 0.0344 | Train Acc: 0.9899 | Train F1: 0.9872 | Val Loss: 0.0360 | Val Acc: 0.9886 | Val F1: 0.9886
+2026-08-19 05:47:56,867 [INFO] - [Trial 6] Epoch 12/50 | Train Loss: 0.0311 | Train Acc: 0.9897 | Train F1: 0.9878 | Val Loss: 0.0352 | Val Acc: 0.9905 | Val F1: 0.9887
+2026-08-19 05:48:41,237 [INFO] - [Trial 6] Epoch 13/50 | Train Loss: 0.0254 | Train Acc: 0.9924 | Train F1: 0.9913 | Val Loss: 0.0409 | Val Acc: 0.9886 | Val F1: 0.9849
+2026-08-19 05:49:25,306 [INFO] - [Trial 6] Epoch 14/50 | Train Loss: 0.0241 | Train Acc: 0.9932 | Train F1: 0.9897 | Val Loss: 0.0381 | Val Acc: 0.9874 | Val F1: 0.9817
+2026-08-19 05:50:09,461 [INFO] - [Trial 6] Epoch 15/50 | Train Loss: 0.0169 | Train Acc: 0.9954 | Train F1: 0.9943 | Val Loss: 0.0323 | Val Acc: 0.9908 | Val F1: 0.9883
+2026-08-19 05:50:53,705 [INFO] - [Trial 6] Epoch 16/50 | Train Loss: 0.0178 | Train Acc: 0.9941 | Train F1: 0.9923 | Val Loss: 0.0376 | Val Acc: 0.9874 | Val F1: 0.9858
+2026-08-19 05:51:38,015 [INFO] - [Trial 6] Epoch 17/50 | Train Loss: 0.0171 | Train Acc: 0.9949 | Train F1: 0.9929 | Val Loss: 0.0310 | Val Acc: 0.9927 | Val F1: 0.9900
+2026-08-19 05:52:22,324 [INFO] - [Trial 6] Epoch 18/50 | Train Loss: 0.0165 | Train Acc: 0.9944 | Train F1: 0.9927 | Val Loss: 0.0391 | Val Acc: 0.9896 | Val F1: 0.9878
+2026-08-19 05:53:06,622 [INFO] - [Trial 6] Epoch 19/50 | Train Loss: 0.0196 | Train Acc: 0.9939 | Train F1: 0.9933 | Val Loss: 0.0390 | Val Acc: 0.9889 | Val F1: 0.9886
+2026-08-19 05:53:51,064 [INFO] - [Trial 6] Epoch 20/50 | Train Loss: 0.0140 | Train Acc: 0.9960 | Train F1: 0.9945 | Val Loss: 0.0379 | Val Acc: 0.9899 | Val F1: 0.9905
+2026-08-19 05:54:35,061 [INFO] - [Trial 6] Epoch 21/50 | Train Loss: 0.0126 | Train Acc: 0.9959 | Train F1: 0.9948 | Val Loss: 0.0347 | Val Acc: 0.9896 | Val F1: 0.9886
+2026-08-19 05:55:19,372 [INFO] - [Trial 6] Epoch 22/50 | Train Loss: 0.0111 | Train Acc: 0.9971 | Train F1: 0.9949 | Val Loss: 0.0322 | Val Acc: 0.9912 | Val F1: 0.9911
+2026-08-19 05:56:03,653 [INFO] - [Trial 6] Epoch 23/50 | Train Loss: 0.0135 | Train Acc: 0.9960 | Train F1: 0.9945 | Val Loss: 0.0403 | Val Acc: 0.9877 | Val F1: 0.9882
+2026-08-19 05:56:47,845 [INFO] - [Trial 6] Epoch 24/50 | Train Loss: 0.0118 | Train Acc: 0.9968 | Train F1: 0.9954 | Val Loss: 0.0395 | Val Acc: 0.9886 | Val F1: 0.9886
+2026-08-19 05:57:31,896 [INFO] - [Trial 6] Epoch 25/50 | Train Loss: 0.0112 | Train Acc: 0.9967 | Train F1: 0.9965 | Val Loss: 0.0422 | Val Acc: 0.9858 | Val F1: 0.9870
+2026-08-19 05:58:15,564 [INFO] - [Trial 6] Epoch 26/50 | Train Loss: 0.0098 | Train Acc: 0.9975 | Train F1: 0.9975 | Val Loss: 0.0368 | Val Acc: 0.9902 | Val F1: 0.9906
+2026-08-19 05:58:59,538 [INFO] - [Trial 6] Epoch 27/50 | Train Loss: 0.0104 | Train Acc: 0.9968 | Train F1: 0.9971 | Val Loss: 0.0385 | Val Acc: 0.9896 | Val F1: 0.9900
+2026-08-19 05:59:43,461 [INFO] - [Trial 6] Epoch 28/50 | Train Loss: 0.0119 | Train Acc: 0.9959 | Train F1: 0.9948 | Val Loss: 0.0369 | Val Acc: 0.9905 | Val F1: 0.9914
+2026-08-19 06:00:27,641 [INFO] - [Trial 6] Epoch 29/50 | Train Loss: 0.0098 | Train Acc: 0.9975 | Train F1: 0.9961 | Val Loss: 0.0334 | Val Acc: 0.9924 | Val F1: 0.9926
+2026-08-19 06:01:11,883 [INFO] - [Trial 6] Epoch 30/50 | Train Loss: 0.0113 | Train Acc: 0.9966 | Train F1: 0.9952 | Val Loss: 0.0411 | Val Acc: 0.9883 | Val F1: 0.9890
+2026-08-19 06:01:56,159 [INFO] - [Trial 6] Epoch 31/50 | Train Loss: 0.0110 | Train Acc: 0.9970 | Train F1: 0.9969 | Val Loss: 0.0355 | Val Acc: 0.9889 | Val F1: 0.9876
+2026-08-19 06:02:40,572 [INFO] - [Trial 6] Epoch 32/50 | Train Loss: 0.0111 | Train Acc: 0.9961 | Train F1: 0.9941 | Val Loss: 0.0383 | Val Acc: 0.9889 | Val F1: 0.9876
+2026-08-19 06:03:24,742 [INFO] - [Trial 6] Epoch 33/50 | Train Loss: 0.0095 | Train Acc: 0.9978 | Train F1: 0.9957 | Val Loss: 0.0352 | Val Acc: 0.9899 | Val F1: 0.9886
+2026-08-19 06:04:08,739 [INFO] - [Trial 6] Epoch 34/50 | Train Loss: 0.0084 | Train Acc: 0.9979 | Train F1: 0.9978 | Val Loss: 0.0368 | Val Acc: 0.9893 | Val F1: 0.9876
+2026-08-19 06:04:52,865 [INFO] - [Trial 6] Epoch 35/50 | Train Loss: 0.0083 | Train Acc: 0.9978 | Train F1: 0.9976 | Val Loss: 0.0349 | Val Acc: 0.9902 | Val F1: 0.9882
+2026-08-19 06:05:36,866 [INFO] - [Trial 6] Epoch 36/50 | Train Loss: 0.0096 | Train Acc: 0.9975 | Train F1: 0.9964 | Val Loss: 0.0321 | Val Acc: 0.9915 | Val F1: 0.9907
+2026-08-19 06:06:21,345 [INFO] - [Trial 6] Epoch 37/50 | Train Loss: 0.0088 | Train Acc: 0.9975 | Train F1: 0.9966 | Val Loss: 0.0350 | Val Acc: 0.9918 | Val F1: 0.9906
+2026-08-19 06:07:05,650 [INFO] - [Trial 6] Epoch 38/50 | Train Loss: 0.0109 | Train Acc: 0.9968 | Train F1: 0.9933 | Val Loss: 0.0355 | Val Acc: 0.9912 | Val F1: 0.9904
+2026-08-19 06:07:50,048 [INFO] - [Trial 6] Epoch 39/50 | Train Loss: 0.0072 | Train Acc: 0.9983 | Train F1: 0.9977 | Val Loss: 0.0342 | Val Acc: 0.9915 | Val F1: 0.9906
+2026-08-19 06:07:50,058 [INFO] - Early stopping en época 39.
+2026-08-19 06:07:50,110 [INFO] - 
+Trial 7 - Hiperparámetros:
+2026-08-19 06:07:50,111 [INFO] -   lr: 1.8427970406864558e-06
+2026-08-19 06:07:50,111 [INFO] -   optimizer_name: AdamW
+2026-08-19 06:07:50,112 [INFO] -   dropout: 0.11758971745148711
+2026-08-19 06:07:50,113 [INFO] -   weight_decay: 1.6832027985721922e-06
+2026-08-19 06:07:50,113 [INFO] -   batch_size: 256
+2026-08-19 06:07:50,114 [INFO] -   unfreeze_blocks: 1
+2026-08-19 06:08:33,447 [INFO] - [Trial 7] Epoch 1/50 | Train Loss: 2.6883 | Train Acc: 0.0546 | Train F1: 0.0413 | Val Loss: 2.3994 | Val Acc: 0.1015 | Val F1: 0.0618
+2026-08-19 06:09:17,152 [INFO] - [Trial 7] Epoch 2/50 | Train Loss: 2.5003 | Train Acc: 0.1091 | Train F1: 0.0709 | Val Loss: 2.1873 | Val Acc: 0.2228 | Val F1: 0.1070
+2026-08-19 06:10:00,895 [INFO] - [Trial 7] Epoch 3/50 | Train Loss: 2.3253 | Train Acc: 0.1897 | Train F1: 0.1057 | Val Loss: 1.9861 | Val Acc: 0.3590 | Val F1: 0.1841
+2026-08-19 06:10:00,908 [INFO] - Trial 7 podado por pruner.
+2026-08-19 06:10:00,957 [INFO] - 
+Trial 8 - Hiperparámetros:
+2026-08-19 06:10:00,957 [INFO] -   lr: 6.963114377829292e-06
+2026-08-19 06:10:00,958 [INFO] -   optimizer_name: AdamW
+2026-08-19 06:10:00,959 [INFO] -   dropout: 0.32561764989494907
+2026-08-19 06:10:00,959 [INFO] -   weight_decay: 5.065486063975357e-06
+2026-08-19 06:10:00,960 [INFO] -   batch_size: 128
+2026-08-19 06:10:00,960 [INFO] -   unfreeze_blocks: 0
+2026-08-19 06:10:44,329 [INFO] - [Trial 8] Epoch 1/50 | Train Loss: 2.4708 | Train Acc: 0.1255 | Train F1: 0.0725 | Val Loss: 2.1386 | Val Acc: 0.2645 | Val F1: 0.1097
+2026-08-19 06:11:28,773 [INFO] - [Trial 8] Epoch 2/50 | Train Loss: 2.2934 | Train Acc: 0.1871 | Train F1: 0.0900 | Val Loss: 2.0095 | Val Acc: 0.3448 | Val F1: 0.1356
+2026-08-19 06:12:12,995 [INFO] - [Trial 8] Epoch 3/50 | Train Loss: 2.1887 | Train Acc: 0.2256 | Train F1: 0.0960 | Val Loss: 1.9286 | Val Acc: 0.3966 | Val F1: 0.1442
+2026-08-19 06:12:13,004 [INFO] - Trial 8 podado por pruner.
+2026-08-19 06:12:13,057 [INFO] - 
+Trial 9 - Hiperparámetros:
+2026-08-19 06:12:13,058 [INFO] -   lr: 1.0388823104027941e-06
+2026-08-19 06:12:13,059 [INFO] -   optimizer_name: AdamW
+2026-08-19 06:12:13,059 [INFO] -   dropout: 0.4892768570729005
+2026-08-19 06:12:13,059 [INFO] -   weight_decay: 0.003422052903270693
+2026-08-19 06:12:13,060 [INFO] -   batch_size: 64
+2026-08-19 06:12:13,061 [INFO] -   unfreeze_blocks: 0
+2026-08-19 06:12:56,910 [INFO] - [Trial 9] Epoch 1/50 | Train Loss: 2.8090 | Train Acc: 0.1439 | Train F1: 0.0610 | Val Loss: 2.5880 | Val Acc: 0.0891 | Val F1: 0.0260
+2026-08-19 06:13:41,351 [INFO] - [Trial 9] Epoch 2/50 | Train Loss: 2.7509 | Train Acc: 0.1485 | Train F1: 0.0617 | Val Loss: 2.5460 | Val Acc: 0.1062 | Val F1: 0.0292
+2026-08-19 06:14:26,411 [INFO] - [Trial 9] Epoch 3/50 | Train Loss: 2.6969 | Train Acc: 0.1629 | Train F1: 0.0658 | Val Loss: 2.4986 | Val Acc: 0.1350 | Val F1: 0.0344
+2026-08-19 06:14:26,419 [INFO] - Trial 9 podado por pruner.
+2026-08-19 06:14:26,478 [INFO] - 
+Trial 10 - Hiperparámetros:
+2026-08-19 06:14:26,479 [INFO] -   lr: 0.0007528598283398645
+2026-08-19 06:14:26,480 [INFO] -   optimizer_name: AdamW
+2026-08-19 06:14:26,481 [INFO] -   dropout: 0.0035983097734904046
+2026-08-19 06:14:26,481 [INFO] -   weight_decay: 9.891772682712858e-05
+2026-08-19 06:14:26,482 [INFO] -   batch_size: 64
+2026-08-19 06:14:26,482 [INFO] -   unfreeze_blocks: 4
+2026-08-19 06:15:10,569 [INFO] - [Trial 10] Epoch 1/50 | Train Loss: 0.2925 | Train Acc: 0.9076 | Train F1: 0.8363 | Val Loss: 0.0955 | Val Acc: 0.9646 | Val F1: 0.9579
+2026-08-19 06:15:55,184 [INFO] - [Trial 10] Epoch 2/50 | Train Loss: 0.1223 | Train Acc: 0.9598 | Train F1: 0.9383 | Val Loss: 0.0847 | Val Acc: 0.9681 | Val F1: 0.9654
+2026-08-19 06:16:39,291 [INFO] - [Trial 10] Epoch 3/50 | Train Loss: 0.0965 | Train Acc: 0.9713 | Train F1: 0.9555 | Val Loss: 0.0676 | Val Acc: 0.9750 | Val F1: 0.9720
+2026-08-19 06:17:23,566 [INFO] - [Trial 10] Epoch 4/50 | Train Loss: 0.0916 | Train Acc: 0.9706 | Train F1: 0.9581 | Val Loss: 0.0570 | Val Acc: 0.9826 | Val F1: 0.9758
+2026-08-19 06:18:08,253 [INFO] - [Trial 10] Epoch 5/50 | Train Loss: 0.0702 | Train Acc: 0.9796 | Train F1: 0.9684 | Val Loss: 0.0466 | Val Acc: 0.9848 | Val F1: 0.9759
+2026-08-19 06:18:52,675 [INFO] - [Trial 10] Epoch 6/50 | Train Loss: 0.0617 | Train Acc: 0.9805 | Train F1: 0.9711 | Val Loss: 0.1023 | Val Acc: 0.9649 | Val F1: 0.9430
+2026-08-19 06:19:36,866 [INFO] - [Trial 10] Epoch 7/50 | Train Loss: 0.0647 | Train Acc: 0.9780 | Train F1: 0.9720 | Val Loss: 0.0404 | Val Acc: 0.9880 | Val F1: 0.9815
+2026-08-19 06:20:21,354 [INFO] - [Trial 10] Epoch 8/50 | Train Loss: 0.0599 | Train Acc: 0.9808 | Train F1: 0.9716 | Val Loss: 0.0671 | Val Acc: 0.9772 | Val F1: 0.9589
+2026-08-19 06:21:05,904 [INFO] - [Trial 10] Epoch 9/50 | Train Loss: 0.0464 | Train Acc: 0.9853 | Train F1: 0.9780 | Val Loss: 0.0443 | Val Acc: 0.9877 | Val F1: 0.9805
+2026-08-19 06:21:50,357 [INFO] - [Trial 10] Epoch 10/50 | Train Loss: 0.0553 | Train Acc: 0.9824 | Train F1: 0.9663 | Val Loss: 0.0389 | Val Acc: 0.9864 | Val F1: 0.9882
+2026-08-19 06:22:34,552 [INFO] - [Trial 10] Epoch 11/50 | Train Loss: 0.0557 | Train Acc: 0.9827 | Train F1: 0.9756 | Val Loss: 0.0705 | Val Acc: 0.9807 | Val F1: 0.9803
+2026-08-19 06:23:18,968 [INFO] - [Trial 10] Epoch 12/50 | Train Loss: 0.0456 | Train Acc: 0.9863 | Train F1: 0.9773 | Val Loss: 0.0512 | Val Acc: 0.9842 | Val F1: 0.9860
+2026-08-19 06:24:03,326 [INFO] - [Trial 10] Epoch 13/50 | Train Loss: 0.0497 | Train Acc: 0.9840 | Train F1: 0.9739 | Val Loss: 0.1301 | Val Acc: 0.9602 | Val F1: 0.9485
+2026-08-19 06:24:49,030 [INFO] - [Trial 10] Epoch 14/50 | Train Loss: 0.0473 | Train Acc: 0.9859 | Train F1: 0.9726 | Val Loss: 0.0417 | Val Acc: 0.9883 | Val F1: 0.9802
+2026-08-19 06:25:34,189 [INFO] - [Trial 10] Epoch 15/50 | Train Loss: 0.0402 | Train Acc: 0.9874 | Train F1: 0.9802 | Val Loss: 0.0431 | Val Acc: 0.9839 | Val F1: 0.9879
+2026-08-19 06:26:18,782 [INFO] - [Trial 10] Epoch 16/50 | Train Loss: 0.0368 | Train Acc: 0.9881 | Train F1: 0.9864 | Val Loss: 0.0573 | Val Acc: 0.9842 | Val F1: 0.9804
+2026-08-19 06:27:03,481 [INFO] - [Trial 10] Epoch 17/50 | Train Loss: 0.0226 | Train Acc: 0.9927 | Train F1: 0.9907 | Val Loss: 0.0295 | Val Acc: 0.9918 | Val F1: 0.9790
+2026-08-19 06:27:48,351 [INFO] - [Trial 10] Epoch 18/50 | Train Loss: 0.0186 | Train Acc: 0.9937 | Train F1: 0.9906 | Val Loss: 0.0441 | Val Acc: 0.9861 | Val F1: 0.9868
+2026-08-19 06:28:33,220 [INFO] - [Trial 10] Epoch 19/50 | Train Loss: 0.0195 | Train Acc: 0.9933 | Train F1: 0.9916 | Val Loss: 0.0437 | Val Acc: 0.9836 | Val F1: 0.9819
+2026-08-19 06:29:17,795 [INFO] - [Trial 10] Epoch 20/50 | Train Loss: 0.0177 | Train Acc: 0.9948 | Train F1: 0.9933 | Val Loss: 0.0449 | Val Acc: 0.9877 | Val F1: 0.9780
+2026-08-19 06:29:17,804 [INFO] - Early stopping en época 20.
+2026-08-19 06:29:17,859 [INFO] - 
+Trial 11 - Hiperparámetros:
+2026-08-19 06:29:17,860 [INFO] -   lr: 9.899525589326885e-05
+2026-08-19 06:29:17,861 [INFO] -   optimizer_name: AdamW
+2026-08-19 06:29:17,861 [INFO] -   dropout: 0.15326607525911934
+2026-08-19 06:29:17,862 [INFO] -   weight_decay: 0.07926216209782387
+2026-08-19 06:29:17,862 [INFO] -   batch_size: 128
+2026-08-19 06:29:17,863 [INFO] -   unfreeze_blocks: 4
+2026-08-19 06:30:01,008 [INFO] - [Trial 11] Epoch 1/50 | Train Loss: 0.5759 | Train Acc: 0.8285 | Train F1: 0.6128 | Val Loss: 0.1246 | Val Acc: 0.9671 | Val F1: 0.9336
+2026-08-19 06:30:45,249 [INFO] - [Trial 11] Epoch 2/50 | Train Loss: 0.1170 | Train Acc: 0.9692 | Train F1: 0.9340 | Val Loss: 0.0796 | Val Acc: 0.9763 | Val F1: 0.9764
+2026-08-19 06:31:29,397 [INFO] - [Trial 11] Epoch 3/50 | Train Loss: 0.0752 | Train Acc: 0.9790 | Train F1: 0.9624 | Val Loss: 0.0466 | Val Acc: 0.9886 | Val F1: 0.9860
+2026-08-19 06:32:13,833 [INFO] - [Trial 11] Epoch 4/50 | Train Loss: 0.0598 | Train Acc: 0.9827 | Train F1: 0.9742 | Val Loss: 0.0440 | Val Acc: 0.9851 | Val F1: 0.9744
+2026-08-19 06:32:58,369 [INFO] - [Trial 11] Epoch 5/50 | Train Loss: 0.0523 | Train Acc: 0.9854 | Train F1: 0.9762 | Val Loss: 0.0474 | Val Acc: 0.9855 | Val F1: 0.9853
+2026-08-19 06:33:42,871 [INFO] - [Trial 11] Epoch 6/50 | Train Loss: 0.0430 | Train Acc: 0.9878 | Train F1: 0.9793 | Val Loss: 0.0535 | Val Acc: 0.9810 | Val F1: 0.9836
+2026-08-19 06:34:26,949 [INFO] - [Trial 11] Epoch 7/50 | Train Loss: 0.0362 | Train Acc: 0.9894 | Train F1: 0.9856 | Val Loss: 0.0377 | Val Acc: 0.9908 | Val F1: 0.9913
+2026-08-19 06:35:11,283 [INFO] - [Trial 11] Epoch 8/50 | Train Loss: 0.0374 | Train Acc: 0.9892 | Train F1: 0.9848 | Val Loss: 0.0626 | Val Acc: 0.9810 | Val F1: 0.9816
+2026-08-19 06:35:55,799 [INFO] - [Trial 11] Epoch 9/50 | Train Loss: 0.0291 | Train Acc: 0.9918 | Train F1: 0.9888 | Val Loss: 0.0548 | Val Acc: 0.9823 | Val F1: 0.9816
+2026-08-19 06:36:39,747 [INFO] - [Trial 11] Epoch 10/50 | Train Loss: 0.0296 | Train Acc: 0.9913 | Train F1: 0.9877 | Val Loss: 0.0538 | Val Acc: 0.9851 | Val F1: 0.9871
+2026-08-19 06:37:23,883 [INFO] - [Trial 11] Epoch 11/50 | Train Loss: 0.0255 | Train Acc: 0.9937 | Train F1: 0.9903 | Val Loss: 0.0502 | Val Acc: 0.9836 | Val F1: 0.9761
+2026-08-19 06:38:07,937 [INFO] - [Trial 11] Epoch 12/50 | Train Loss: 0.0268 | Train Acc: 0.9920 | Train F1: 0.9918 | Val Loss: 0.0376 | Val Acc: 0.9902 | Val F1: 0.9902
+2026-08-19 06:38:52,016 [INFO] - [Trial 11] Epoch 13/50 | Train Loss: 0.0216 | Train Acc: 0.9931 | Train F1: 0.9917 | Val Loss: 0.0515 | Val Acc: 0.9874 | Val F1: 0.9883
+2026-08-19 06:39:36,379 [INFO] - [Trial 11] Epoch 14/50 | Train Loss: 0.0235 | Train Acc: 0.9933 | Train F1: 0.9908 | Val Loss: 0.0495 | Val Acc: 0.9855 | Val F1: 0.9852
+2026-08-19 06:40:20,800 [INFO] - [Trial 11] Epoch 15/50 | Train Loss: 0.0202 | Train Acc: 0.9935 | Train F1: 0.9925 | Val Loss: 0.0317 | Val Acc: 0.9930 | Val F1: 0.9917
+2026-08-19 06:41:04,895 [INFO] - [Trial 11] Epoch 16/50 | Train Loss: 0.0246 | Train Acc: 0.9922 | Train F1: 0.9914 | Val Loss: 0.0343 | Val Acc: 0.9908 | Val F1: 0.9875
+2026-08-19 06:41:48,974 [INFO] - [Trial 11] Epoch 17/50 | Train Loss: 0.0180 | Train Acc: 0.9944 | Train F1: 0.9926 | Val Loss: 0.0540 | Val Acc: 0.9814 | Val F1: 0.9835
+2026-08-19 06:42:33,474 [INFO] - [Trial 11] Epoch 18/50 | Train Loss: 0.0207 | Train Acc: 0.9933 | Train F1: 0.9920 | Val Loss: 0.0393 | Val Acc: 0.9899 | Val F1: 0.9920
+2026-08-19 06:43:17,856 [INFO] - [Trial 11] Epoch 19/50 | Train Loss: 0.0201 | Train Acc: 0.9938 | Train F1: 0.9934 | Val Loss: 0.0448 | Val Acc: 0.9864 | Val F1: 0.9849
+2026-08-19 06:44:01,627 [INFO] - [Trial 11] Epoch 20/50 | Train Loss: 0.0187 | Train Acc: 0.9939 | Train F1: 0.9916 | Val Loss: 0.0516 | Val Acc: 0.9851 | Val F1: 0.9807
+2026-08-19 06:44:45,863 [INFO] - [Trial 11] Epoch 21/50 | Train Loss: 0.0184 | Train Acc: 0.9938 | Train F1: 0.9892 | Val Loss: 0.0415 | Val Acc: 0.9899 | Val F1: 0.9884
+2026-08-19 06:45:30,024 [INFO] - [Trial 11] Epoch 22/50 | Train Loss: 0.0101 | Train Acc: 0.9972 | Train F1: 0.9966 | Val Loss: 0.0376 | Val Acc: 0.9883 | Val F1: 0.9897
+2026-08-19 06:46:14,363 [INFO] - [Trial 11] Epoch 23/50 | Train Loss: 0.0104 | Train Acc: 0.9968 | Train F1: 0.9970 | Val Loss: 0.0432 | Val Acc: 0.9864 | Val F1: 0.9863
+2026-08-19 06:47:00,012 [INFO] - [Trial 11] Epoch 24/50 | Train Loss: 0.0087 | Train Acc: 0.9977 | Train F1: 0.9984 | Val Loss: 0.0501 | Val Acc: 0.9823 | Val F1: 0.9825
+2026-08-19 06:47:44,667 [INFO] - [Trial 11] Epoch 25/50 | Train Loss: 0.0067 | Train Acc: 0.9979 | Train F1: 0.9979 | Val Loss: 0.0391 | Val Acc: 0.9883 | Val F1: 0.9864
+2026-08-19 06:48:29,036 [INFO] - [Trial 11] Epoch 26/50 | Train Loss: 0.0080 | Train Acc: 0.9979 | Train F1: 0.9968 | Val Loss: 0.0282 | Val Acc: 0.9915 | Val F1: 0.9874
+2026-08-19 06:49:13,179 [INFO] - [Trial 11] Epoch 27/50 | Train Loss: 0.0086 | Train Acc: 0.9979 | Train F1: 0.9981 | Val Loss: 0.0321 | Val Acc: 0.9896 | Val F1: 0.9909
+2026-08-19 06:49:57,790 [INFO] - [Trial 11] Epoch 28/50 | Train Loss: 0.0088 | Train Acc: 0.9970 | Train F1: 0.9976 | Val Loss: 0.0379 | Val Acc: 0.9883 | Val F1: 0.9903
+2026-08-19 06:49:57,800 [INFO] - Early stopping en época 28.
+2026-08-19 06:49:57,855 [INFO] - 
+Trial 12 - Hiperparámetros:
+2026-08-19 06:49:57,856 [INFO] -   lr: 0.00014293584268844557
+2026-08-19 06:49:57,856 [INFO] -   optimizer_name: AdamW
+2026-08-19 06:49:57,857 [INFO] -   dropout: 0.1489659267560571
+2026-08-19 06:49:57,858 [INFO] -   weight_decay: 0.07378287058816868
+2026-08-19 06:49:57,858 [INFO] -   batch_size: 128
+2026-08-19 06:49:57,858 [INFO] -   unfreeze_blocks: 3
+2026-08-19 06:50:41,848 [INFO] - [Trial 12] Epoch 1/50 | Train Loss: 0.4943 | Train Acc: 0.8491 | Train F1: 0.6703 | Val Loss: 0.1072 | Val Acc: 0.9725 | Val F1: 0.9670
+2026-08-19 06:51:26,614 [INFO] - [Trial 12] Epoch 2/50 | Train Loss: 0.1040 | Train Acc: 0.9704 | Train F1: 0.9440 | Val Loss: 0.0773 | Val Acc: 0.9741 | Val F1: 0.9749
+2026-08-19 06:52:11,395 [INFO] - [Trial 12] Epoch 3/50 | Train Loss: 0.0742 | Train Acc: 0.9778 | Train F1: 0.9647 | Val Loss: 0.0547 | Val Acc: 0.9836 | Val F1: 0.9813
+2026-08-19 06:52:56,398 [INFO] - [Trial 12] Epoch 4/50 | Train Loss: 0.0585 | Train Acc: 0.9822 | Train F1: 0.9730 | Val Loss: 0.0518 | Val Acc: 0.9839 | Val F1: 0.9810
+2026-08-19 06:53:41,394 [INFO] - [Trial 12] Epoch 5/50 | Train Loss: 0.0555 | Train Acc: 0.9842 | Train F1: 0.9765 | Val Loss: 0.0474 | Val Acc: 0.9893 | Val F1: 0.9839
+2026-08-19 06:54:26,414 [INFO] - [Trial 12] Epoch 6/50 | Train Loss: 0.0444 | Train Acc: 0.9866 | Train F1: 0.9780 | Val Loss: 0.0477 | Val Acc: 0.9851 | Val F1: 0.9835
+2026-08-19 06:55:11,113 [INFO] - [Trial 12] Epoch 7/50 | Train Loss: 0.0392 | Train Acc: 0.9880 | Train F1: 0.9831 | Val Loss: 0.0408 | Val Acc: 0.9886 | Val F1: 0.9878
+2026-08-19 06:55:56,120 [INFO] - [Trial 12] Epoch 8/50 | Train Loss: 0.0386 | Train Acc: 0.9873 | Train F1: 0.9803 | Val Loss: 0.0532 | Val Acc: 0.9823 | Val F1: 0.9762
+2026-08-19 06:56:41,421 [INFO] - [Trial 12] Epoch 9/50 | Train Loss: 0.0331 | Train Acc: 0.9909 | Train F1: 0.9845 | Val Loss: 0.0571 | Val Acc: 0.9842 | Val F1: 0.9854
+2026-08-19 06:57:26,420 [INFO] - [Trial 12] Epoch 10/50 | Train Loss: 0.0298 | Train Acc: 0.9911 | Train F1: 0.9873 | Val Loss: 0.0375 | Val Acc: 0.9889 | Val F1: 0.9879
+2026-08-19 06:58:11,105 [INFO] - [Trial 12] Epoch 11/50 | Train Loss: 0.0284 | Train Acc: 0.9916 | Train F1: 0.9885 | Val Loss: 0.0405 | Val Acc: 0.9883 | Val F1: 0.9908
+2026-08-19 06:58:55,808 [INFO] - [Trial 12] Epoch 12/50 | Train Loss: 0.0266 | Train Acc: 0.9918 | Train F1: 0.9914 | Val Loss: 0.0378 | Val Acc: 0.9896 | Val F1: 0.9922
+2026-08-19 06:59:40,600 [INFO] - [Trial 12] Epoch 13/50 | Train Loss: 0.0252 | Train Acc: 0.9922 | Train F1: 0.9869 | Val Loss: 0.0317 | Val Acc: 0.9918 | Val F1: 0.9893
+2026-08-19 07:00:25,169 [INFO] - [Trial 12] Epoch 14/50 | Train Loss: 0.0280 | Train Acc: 0.9922 | Train F1: 0.9882 | Val Loss: 0.1213 | Val Acc: 0.9618 | Val F1: 0.9722
+2026-08-19 07:01:09,823 [INFO] - [Trial 12] Epoch 15/50 | Train Loss: 0.0237 | Train Acc: 0.9918 | Train F1: 0.9901 | Val Loss: 0.0271 | Val Acc: 0.9927 | Val F1: 0.9938
+2026-08-19 07:01:54,324 [INFO] - [Trial 12] Epoch 16/50 | Train Loss: 0.0230 | Train Acc: 0.9927 | Train F1: 0.9896 | Val Loss: 0.0461 | Val Acc: 0.9845 | Val F1: 0.9847
+2026-08-19 07:02:39,184 [INFO] - [Trial 12] Epoch 17/50 | Train Loss: 0.0209 | Train Acc: 0.9933 | Train F1: 0.9913 | Val Loss: 0.0514 | Val Acc: 0.9829 | Val F1: 0.9856
+2026-08-19 07:03:23,852 [INFO] - [Trial 12] Epoch 18/50 | Train Loss: 0.0205 | Train Acc: 0.9930 | Train F1: 0.9906 | Val Loss: 0.0812 | Val Acc: 0.9747 | Val F1: 0.9806
+2026-08-19 07:04:08,604 [INFO] - [Trial 12] Epoch 19/50 | Train Loss: 0.0218 | Train Acc: 0.9930 | Train F1: 0.9924 | Val Loss: 0.0218 | Val Acc: 0.9962 | Val F1: 0.9963
+2026-08-19 07:04:53,426 [INFO] - [Trial 12] Epoch 20/50 | Train Loss: 0.0179 | Train Acc: 0.9941 | Train F1: 0.9916 | Val Loss: 0.0339 | Val Acc: 0.9902 | Val F1: 0.9912
+2026-08-19 07:05:38,135 [INFO] - [Trial 12] Epoch 21/50 | Train Loss: 0.0210 | Train Acc: 0.9930 | Train F1: 0.9908 | Val Loss: 0.0400 | Val Acc: 0.9870 | Val F1: 0.9865
+2026-08-19 07:06:22,830 [INFO] - [Trial 12] Epoch 22/50 | Train Loss: 0.0161 | Train Acc: 0.9946 | Train F1: 0.9925 | Val Loss: 0.0345 | Val Acc: 0.9902 | Val F1: 0.9858
+2026-08-19 07:07:07,736 [INFO] - [Trial 12] Epoch 23/50 | Train Loss: 0.0177 | Train Acc: 0.9945 | Train F1: 0.9923 | Val Loss: 0.0606 | Val Acc: 0.9779 | Val F1: 0.9749
+2026-08-19 07:07:52,860 [INFO] - [Trial 12] Epoch 24/50 | Train Loss: 0.0174 | Train Acc: 0.9939 | Train F1: 0.9899 | Val Loss: 0.0580 | Val Acc: 0.9817 | Val F1: 0.9699
+2026-08-19 07:08:37,848 [INFO] - [Trial 12] Epoch 25/50 | Train Loss: 0.0149 | Train Acc: 0.9952 | Train F1: 0.9946 | Val Loss: 0.0671 | Val Acc: 0.9779 | Val F1: 0.9793
+2026-08-19 07:09:22,465 [INFO] - [Trial 12] Epoch 26/50 | Train Loss: 0.0111 | Train Acc: 0.9964 | Train F1: 0.9963 | Val Loss: 0.0457 | Val Acc: 0.9848 | Val F1: 0.9848
+2026-08-19 07:10:07,209 [INFO] - [Trial 12] Epoch 27/50 | Train Loss: 0.0110 | Train Acc: 0.9965 | Train F1: 0.9936 | Val Loss: 0.0341 | Val Acc: 0.9896 | Val F1: 0.9904
+2026-08-19 07:10:52,091 [INFO] - [Trial 12] Epoch 28/50 | Train Loss: 0.0110 | Train Acc: 0.9965 | Train F1: 0.9964 | Val Loss: 0.0355 | Val Acc: 0.9908 | Val F1: 0.9924
+2026-08-19 07:11:37,232 [INFO] - [Trial 12] Epoch 29/50 | Train Loss: 0.0115 | Train Acc: 0.9965 | Train F1: 0.9943 | Val Loss: 0.0384 | Val Acc: 0.9870 | Val F1: 0.9828
+2026-08-19 07:11:37,241 [INFO] - Early stopping en época 29.
+2026-08-19 07:11:37,296 [INFO] - 
+Trial 13 - Hiperparámetros:
+2026-08-19 07:11:37,296 [INFO] -   lr: 0.0002751785972072916
+2026-08-19 07:11:37,297 [INFO] -   optimizer_name: AdamW
+2026-08-19 07:11:37,298 [INFO] -   dropout: 0.13996993036472563
+2026-08-19 07:11:37,299 [INFO] -   weight_decay: 0.01095376681904841
+2026-08-19 07:11:37,300 [INFO] -   batch_size: 128
+2026-08-19 07:11:37,300 [INFO] -   unfreeze_blocks: 3
+2026-08-19 07:12:21,228 [INFO] - [Trial 13] Epoch 1/50 | Train Loss: 0.3787 | Train Acc: 0.8838 | Train F1: 0.7353 | Val Loss: 0.0919 | Val Acc: 0.9697 | Val F1: 0.9490
+2026-08-19 07:13:06,216 [INFO] - [Trial 13] Epoch 2/50 | Train Loss: 0.0929 | Train Acc: 0.9721 | Train F1: 0.9519 | Val Loss: 0.1079 | Val Acc: 0.9659 | Val F1: 0.9696
+2026-08-19 07:13:50,575 [INFO] - [Trial 13] Epoch 3/50 | Train Loss: 0.0653 | Train Acc: 0.9823 | Train F1: 0.9725 | Val Loss: 0.0524 | Val Acc: 0.9817 | Val F1: 0.9805
+2026-08-19 07:14:35,248 [INFO] - [Trial 13] Epoch 4/50 | Train Loss: 0.0565 | Train Acc: 0.9818 | Train F1: 0.9741 | Val Loss: 0.0487 | Val Acc: 0.9832 | Val F1: 0.9762
+2026-08-19 07:15:20,435 [INFO] - [Trial 13] Epoch 5/50 | Train Loss: 0.0520 | Train Acc: 0.9850 | Train F1: 0.9749 | Val Loss: 0.0401 | Val Acc: 0.9893 | Val F1: 0.9898
+2026-08-19 07:16:05,057 [INFO] - [Trial 13] Epoch 6/50 | Train Loss: 0.0444 | Train Acc: 0.9862 | Train F1: 0.9791 | Val Loss: 0.0392 | Val Acc: 0.9886 | Val F1: 0.9915
+2026-08-19 07:16:49,821 [INFO] - [Trial 13] Epoch 7/50 | Train Loss: 0.0390 | Train Acc: 0.9881 | Train F1: 0.9857 | Val Loss: 0.0507 | Val Acc: 0.9874 | Val F1: 0.9862
+2026-08-19 07:17:34,617 [INFO] - [Trial 13] Epoch 8/50 | Train Loss: 0.0395 | Train Acc: 0.9879 | Train F1: 0.9827 | Val Loss: 0.0719 | Val Acc: 0.9750 | Val F1: 0.9638
+2026-08-19 07:18:19,461 [INFO] - [Trial 13] Epoch 9/50 | Train Loss: 0.0329 | Train Acc: 0.9897 | Train F1: 0.9824 | Val Loss: 0.0596 | Val Acc: 0.9814 | Val F1: 0.9852
+2026-08-19 07:19:04,247 [INFO] - [Trial 13] Epoch 10/50 | Train Loss: 0.0334 | Train Acc: 0.9900 | Train F1: 0.9844 | Val Loss: 0.0590 | Val Acc: 0.9836 | Val F1: 0.9821
+2026-08-19 07:19:48,829 [INFO] - [Trial 13] Epoch 11/50 | Train Loss: 0.0330 | Train Acc: 0.9902 | Train F1: 0.9841 | Val Loss: 0.0387 | Val Acc: 0.9867 | Val F1: 0.9730
+2026-08-19 07:20:33,600 [INFO] - [Trial 13] Epoch 12/50 | Train Loss: 0.0293 | Train Acc: 0.9907 | Train F1: 0.9908 | Val Loss: 0.0492 | Val Acc: 0.9826 | Val F1: 0.9815
+2026-08-19 07:21:18,345 [INFO] - [Trial 13] Epoch 13/50 | Train Loss: 0.0291 | Train Acc: 0.9903 | Train F1: 0.9842 | Val Loss: 0.0421 | Val Acc: 0.9889 | Val F1: 0.9876
+2026-08-19 07:22:03,038 [INFO] - [Trial 13] Epoch 14/50 | Train Loss: 0.0317 | Train Acc: 0.9902 | Train F1: 0.9857 | Val Loss: 0.0537 | Val Acc: 0.9829 | Val F1: 0.9821
+2026-08-19 07:22:47,855 [INFO] - [Trial 13] Epoch 15/50 | Train Loss: 0.0236 | Train Acc: 0.9918 | Train F1: 0.9901 | Val Loss: 0.0448 | Val Acc: 0.9880 | Val F1: 0.9892
+2026-08-19 07:23:32,443 [INFO] - [Trial 13] Epoch 16/50 | Train Loss: 0.0273 | Train Acc: 0.9911 | Train F1: 0.9910 | Val Loss: 0.0377 | Val Acc: 0.9905 | Val F1: 0.9906
+2026-08-19 07:23:32,453 [INFO] - Early stopping en época 16.
+2026-08-19 07:23:32,506 [INFO] - 
+Trial 14 - Hiperparámetros:
+2026-08-19 07:23:32,507 [INFO] -   lr: 8.413110722686851e-05
+2026-08-19 07:23:32,507 [INFO] -   optimizer_name: AdamW
+2026-08-19 07:23:32,508 [INFO] -   dropout: 0.027488868899921137
+2026-08-19 07:23:32,508 [INFO] -   weight_decay: 0.020709562688902308
+2026-08-19 07:23:32,509 [INFO] -   batch_size: 64
+2026-08-19 07:23:32,510 [INFO] -   unfreeze_blocks: 3
+2026-08-19 07:24:17,149 [INFO] - [Trial 14] Epoch 1/50 | Train Loss: 0.4727 | Train Acc: 0.8636 | Train F1: 0.7040 | Val Loss: 0.1070 | Val Acc: 0.9652 | Val F1: 0.9519
+2026-08-19 07:25:02,222 [INFO] - [Trial 14] Epoch 2/50 | Train Loss: 0.1103 | Train Acc: 0.9681 | Train F1: 0.9418 | Val Loss: 0.0700 | Val Acc: 0.9776 | Val F1: 0.9780
+2026-08-19 07:25:47,755 [INFO] - [Trial 14] Epoch 3/50 | Train Loss: 0.0756 | Train Acc: 0.9770 | Train F1: 0.9637 | Val Loss: 0.0437 | Val Acc: 0.9851 | Val F1: 0.9830
+2026-08-19 07:26:32,756 [INFO] - [Trial 14] Epoch 4/50 | Train Loss: 0.0645 | Train Acc: 0.9805 | Train F1: 0.9720 | Val Loss: 0.0553 | Val Acc: 0.9814 | Val F1: 0.9747
+2026-08-19 07:27:17,814 [INFO] - [Trial 14] Epoch 5/50 | Train Loss: 0.0531 | Train Acc: 0.9846 | Train F1: 0.9761 | Val Loss: 0.0442 | Val Acc: 0.9883 | Val F1: 0.9864
+2026-08-19 07:28:03,174 [INFO] - [Trial 14] Epoch 6/50 | Train Loss: 0.0461 | Train Acc: 0.9865 | Train F1: 0.9817 | Val Loss: 0.0507 | Val Acc: 0.9848 | Val F1: 0.9798
+2026-08-19 07:28:48,205 [INFO] - [Trial 14] Epoch 7/50 | Train Loss: 0.0438 | Train Acc: 0.9857 | Train F1: 0.9798 | Val Loss: 0.0481 | Val Acc: 0.9864 | Val F1: 0.9815
+2026-08-19 07:28:48,216 [INFO] - Trial 14 podado por pruner.
+2026-08-19 07:28:48,268 [INFO] - 
+Trial 15 - Hiperparámetros:
+2026-08-19 07:28:48,269 [INFO] -   lr: 0.00024354097116562753
+2026-08-19 07:28:48,269 [INFO] -   optimizer_name: AdamW
+2026-08-19 07:28:48,270 [INFO] -   dropout: 0.21707573979877265
+2026-08-19 07:28:48,270 [INFO] -   weight_decay: 0.0014218593869345366
+2026-08-19 07:28:48,271 [INFO] -   batch_size: 128
+2026-08-19 07:28:48,272 [INFO] -   unfreeze_blocks: 3
+2026-08-19 07:29:32,568 [INFO] - [Trial 15] Epoch 1/50 | Train Loss: 0.3896 | Train Acc: 0.8797 | Train F1: 0.7544 | Val Loss: 0.0804 | Val Acc: 0.9769 | Val F1: 0.9786
+2026-08-19 07:30:17,290 [INFO] - [Trial 15] Epoch 2/50 | Train Loss: 0.0944 | Train Acc: 0.9713 | Train F1: 0.9454 | Val Loss: 0.0713 | Val Acc: 0.9785 | Val F1: 0.9813
+2026-08-19 07:31:02,075 [INFO] - [Trial 15] Epoch 3/50 | Train Loss: 0.0699 | Train Acc: 0.9798 | Train F1: 0.9669 | Val Loss: 0.0607 | Val Acc: 0.9829 | Val F1: 0.9828
+2026-08-19 07:31:46,736 [INFO] - [Trial 15] Epoch 4/50 | Train Loss: 0.0574 | Train Acc: 0.9834 | Train F1: 0.9754 | Val Loss: 0.1001 | Val Acc: 0.9693 | Val F1: 0.9674
+2026-08-19 07:32:31,829 [INFO] - [Trial 15] Epoch 5/50 | Train Loss: 0.0525 | Train Acc: 0.9827 | Train F1: 0.9708 | Val Loss: 0.0501 | Val Acc: 0.9880 | Val F1: 0.9850
+2026-08-19 07:33:16,845 [INFO] - [Trial 15] Epoch 6/50 | Train Loss: 0.0409 | Train Acc: 0.9871 | Train F1: 0.9839 | Val Loss: 0.0313 | Val Acc: 0.9908 | Val F1: 0.9910
+2026-08-19 07:34:01,847 [INFO] - [Trial 15] Epoch 7/50 | Train Loss: 0.0425 | Train Acc: 0.9869 | Train F1: 0.9846 | Val Loss: 0.0411 | Val Acc: 0.9883 | Val F1: 0.9829
+2026-08-19 07:34:46,835 [INFO] - [Trial 15] Epoch 8/50 | Train Loss: 0.0395 | Train Acc: 0.9875 | Train F1: 0.9813 | Val Loss: 0.0847 | Val Acc: 0.9709 | Val F1: 0.9570
+2026-08-19 07:35:31,878 [INFO] - [Trial 15] Epoch 9/50 | Train Loss: 0.0352 | Train Acc: 0.9892 | Train F1: 0.9858 | Val Loss: 0.0435 | Val Acc: 0.9896 | Val F1: 0.9902
+2026-08-19 07:36:16,812 [INFO] - [Trial 15] Epoch 10/50 | Train Loss: 0.0324 | Train Acc: 0.9911 | Train F1: 0.9879 | Val Loss: 0.0476 | Val Acc: 0.9867 | Val F1: 0.9844
+2026-08-19 07:37:01,704 [INFO] - [Trial 15] Epoch 11/50 | Train Loss: 0.0320 | Train Acc: 0.9896 | Train F1: 0.9877 | Val Loss: 0.0286 | Val Acc: 0.9934 | Val F1: 0.9949
+2026-08-19 07:37:46,459 [INFO] - [Trial 15] Epoch 12/50 | Train Loss: 0.0321 | Train Acc: 0.9893 | Train F1: 0.9863 | Val Loss: 0.0469 | Val Acc: 0.9845 | Val F1: 0.9842
+2026-08-19 07:38:31,407 [INFO] - [Trial 15] Epoch 13/50 | Train Loss: 0.0269 | Train Acc: 0.9915 | Train F1: 0.9876 | Val Loss: 0.0503 | Val Acc: 0.9861 | Val F1: 0.9885
+2026-08-19 07:39:16,562 [INFO] - [Trial 15] Epoch 14/50 | Train Loss: 0.0310 | Train Acc: 0.9903 | Train F1: 0.9866 | Val Loss: 0.0433 | Val Acc: 0.9889 | Val F1: 0.9872
+2026-08-19 07:40:01,440 [INFO] - [Trial 15] Epoch 15/50 | Train Loss: 0.0244 | Train Acc: 0.9924 | Train F1: 0.9911 | Val Loss: 0.0377 | Val Acc: 0.9902 | Val F1: 0.9899
+2026-08-19 07:40:46,556 [INFO] - [Trial 15] Epoch 16/50 | Train Loss: 0.0219 | Train Acc: 0.9928 | Train F1: 0.9917 | Val Loss: 0.0558 | Val Acc: 0.9832 | Val F1: 0.9830
+2026-08-19 07:41:31,526 [INFO] - [Trial 15] Epoch 17/50 | Train Loss: 0.0232 | Train Acc: 0.9915 | Train F1: 0.9880 | Val Loss: 0.0441 | Val Acc: 0.9877 | Val F1: 0.9909
+2026-08-19 07:42:16,426 [INFO] - [Trial 15] Epoch 18/50 | Train Loss: 0.0170 | Train Acc: 0.9946 | Train F1: 0.9924 | Val Loss: 0.0411 | Val Acc: 0.9886 | Val F1: 0.9885
+2026-08-19 07:43:01,502 [INFO] - [Trial 15] Epoch 19/50 | Train Loss: 0.0147 | Train Acc: 0.9948 | Train F1: 0.9943 | Val Loss: 0.0306 | Val Acc: 0.9921 | Val F1: 0.9874
+2026-08-19 07:43:46,264 [INFO] - [Trial 15] Epoch 20/50 | Train Loss: 0.0119 | Train Acc: 0.9961 | Train F1: 0.9961 | Val Loss: 0.0330 | Val Acc: 0.9918 | Val F1: 0.9910
+2026-08-19 07:44:30,877 [INFO] - [Trial 15] Epoch 21/50 | Train Loss: 0.0119 | Train Acc: 0.9960 | Train F1: 0.9973 | Val Loss: 0.0263 | Val Acc: 0.9949 | Val F1: 0.9932
+2026-08-19 07:44:30,885 [INFO] - Early stopping en época 21.
+2026-08-19 07:44:30,934 [INFO] - 
+Trial 16 - Hiperparámetros:
+2026-08-19 07:44:30,934 [INFO] -   lr: 0.00025105429227439014
+2026-08-19 07:44:30,935 [INFO] -   optimizer_name: AdamW
+2026-08-19 07:44:30,935 [INFO] -   dropout: 0.22898402885311797
+2026-08-19 07:44:30,936 [INFO] -   weight_decay: 0.00082439579865787
+2026-08-19 07:44:30,937 [INFO] -   batch_size: 128
+2026-08-19 07:44:30,938 [INFO] -   unfreeze_blocks: 3
+2026-08-19 07:45:15,475 [INFO] - [Trial 16] Epoch 1/50 | Train Loss: 0.4090 | Train Acc: 0.8741 | Train F1: 0.7374 | Val Loss: 0.0815 | Val Acc: 0.9719 | Val F1: 0.9766
+2026-08-19 07:46:00,420 [INFO] - [Trial 16] Epoch 2/50 | Train Loss: 0.0944 | Train Acc: 0.9719 | Train F1: 0.9539 | Val Loss: 0.0768 | Val Acc: 0.9772 | Val F1: 0.9750
+2026-08-19 07:46:45,469 [INFO] - [Trial 16] Epoch 3/50 | Train Loss: 0.0709 | Train Acc: 0.9806 | Train F1: 0.9669 | Val Loss: 0.0393 | Val Acc: 0.9874 | Val F1: 0.9897
+2026-08-19 07:47:30,253 [INFO] - [Trial 16] Epoch 4/50 | Train Loss: 0.0592 | Train Acc: 0.9822 | Train F1: 0.9699 | Val Loss: 0.0688 | Val Acc: 0.9772 | Val F1: 0.9717
+2026-08-19 07:48:15,469 [INFO] - [Trial 16] Epoch 5/50 | Train Loss: 0.0509 | Train Acc: 0.9858 | Train F1: 0.9791 | Val Loss: 0.0394 | Val Acc: 0.9893 | Val F1: 0.9869
+2026-08-19 07:49:00,652 [INFO] - [Trial 16] Epoch 6/50 | Train Loss: 0.0467 | Train Acc: 0.9867 | Train F1: 0.9807 | Val Loss: 0.0400 | Val Acc: 0.9886 | Val F1: 0.9899
+2026-08-19 07:49:45,736 [INFO] - [Trial 16] Epoch 7/50 | Train Loss: 0.0359 | Train Acc: 0.9876 | Train F1: 0.9862 | Val Loss: 0.0405 | Val Acc: 0.9877 | Val F1: 0.9823
+2026-08-19 07:50:30,629 [INFO] - [Trial 16] Epoch 8/50 | Train Loss: 0.0367 | Train Acc: 0.9873 | Train F1: 0.9821 | Val Loss: 0.0580 | Val Acc: 0.9820 | Val F1: 0.9780
+2026-08-19 07:51:15,460 [INFO] - [Trial 16] Epoch 9/50 | Train Loss: 0.0351 | Train Acc: 0.9899 | Train F1: 0.9845 | Val Loss: 0.0358 | Val Acc: 0.9905 | Val F1: 0.9828
+2026-08-19 07:52:00,345 [INFO] - [Trial 16] Epoch 10/50 | Train Loss: 0.0320 | Train Acc: 0.9898 | Train F1: 0.9828 | Val Loss: 0.0449 | Val Acc: 0.9870 | Val F1: 0.9856
+2026-08-19 07:52:45,319 [INFO] - [Trial 16] Epoch 11/50 | Train Loss: 0.0291 | Train Acc: 0.9917 | Train F1: 0.9869 | Val Loss: 0.0362 | Val Acc: 0.9883 | Val F1: 0.9846
+2026-08-19 07:53:30,313 [INFO] - [Trial 16] Epoch 12/50 | Train Loss: 0.0288 | Train Acc: 0.9905 | Train F1: 0.9881 | Val Loss: 0.0248 | Val Acc: 0.9937 | Val F1: 0.9945
+2026-08-19 07:54:14,728 [INFO] - [Trial 16] Epoch 13/50 | Train Loss: 0.0319 | Train Acc: 0.9891 | Train F1: 0.9871 | Val Loss: 0.0825 | Val Acc: 0.9709 | Val F1: 0.9734
+2026-08-19 07:54:59,462 [INFO] - [Trial 16] Epoch 14/50 | Train Loss: 0.0295 | Train Acc: 0.9914 | Train F1: 0.9869 | Val Loss: 0.0427 | Val Acc: 0.9867 | Val F1: 0.9888
+2026-08-19 07:55:44,375 [INFO] - [Trial 16] Epoch 15/50 | Train Loss: 0.0247 | Train Acc: 0.9922 | Train F1: 0.9906 | Val Loss: 0.0551 | Val Acc: 0.9814 | Val F1: 0.9850
+2026-08-19 07:56:29,502 [INFO] - [Trial 16] Epoch 16/50 | Train Loss: 0.0292 | Train Acc: 0.9897 | Train F1: 0.9889 | Val Loss: 0.0454 | Val Acc: 0.9845 | Val F1: 0.9851
+2026-08-19 07:57:14,450 [INFO] - [Trial 16] Epoch 17/50 | Train Loss: 0.0259 | Train Acc: 0.9910 | Train F1: 0.9894 | Val Loss: 0.0610 | Val Acc: 0.9785 | Val F1: 0.9834
+2026-08-19 07:57:59,276 [INFO] - [Trial 16] Epoch 18/50 | Train Loss: 0.0211 | Train Acc: 0.9929 | Train F1: 0.9885 | Val Loss: 0.0670 | Val Acc: 0.9760 | Val F1: 0.9604
+2026-08-19 07:58:44,150 [INFO] - [Trial 16] Epoch 19/50 | Train Loss: 0.0174 | Train Acc: 0.9949 | Train F1: 0.9944 | Val Loss: 0.0347 | Val Acc: 0.9908 | Val F1: 0.9906
+2026-08-19 07:59:28,554 [INFO] - [Trial 16] Epoch 20/50 | Train Loss: 0.0104 | Train Acc: 0.9968 | Train F1: 0.9948 | Val Loss: 0.0450 | Val Acc: 0.9842 | Val F1: 0.9868
+2026-08-19 08:00:13,499 [INFO] - [Trial 16] Epoch 21/50 | Train Loss: 0.0128 | Train Acc: 0.9956 | Train F1: 0.9942 | Val Loss: 0.0306 | Val Acc: 0.9927 | Val F1: 0.9935
+2026-08-19 08:00:58,360 [INFO] - [Trial 16] Epoch 22/50 | Train Loss: 0.0110 | Train Acc: 0.9970 | Train F1: 0.9971 | Val Loss: 0.0355 | Val Acc: 0.9877 | Val F1: 0.9877
+2026-08-19 08:00:58,371 [INFO] - Early stopping en época 22.
+2026-08-19 08:00:58,425 [INFO] - 
+Trial 17 - Hiperparámetros:
+2026-08-19 08:00:58,426 [INFO] -   lr: 0.0009843485583512996
+2026-08-19 08:00:58,427 [INFO] -   optimizer_name: AdamW
+2026-08-19 08:00:58,427 [INFO] -   dropout: 0.225768977952752
+2026-08-19 08:00:58,428 [INFO] -   weight_decay: 0.0010786943975592846
+2026-08-19 08:00:58,428 [INFO] -   batch_size: 128
+2026-08-19 08:00:58,428 [INFO] -   unfreeze_blocks: 2
+2026-08-19 08:01:42,945 [INFO] - [Trial 17] Epoch 1/50 | Train Loss: 0.3024 | Train Acc: 0.9055 | Train F1: 0.8279 | Val Loss: 0.0780 | Val Acc: 0.9769 | Val F1: 0.9553
+2026-08-19 08:02:28,096 [INFO] - [Trial 17] Epoch 2/50 | Train Loss: 0.1055 | Train Acc: 0.9655 | Train F1: 0.9440 | Val Loss: 0.1218 | Val Acc: 0.9662 | Val F1: 0.9475
+2026-08-19 08:03:13,098 [INFO] - [Trial 17] Epoch 3/50 | Train Loss: 0.0873 | Train Acc: 0.9726 | Train F1: 0.9467 | Val Loss: 0.0681 | Val Acc: 0.9798 | Val F1: 0.9725
+2026-08-19 08:03:13,109 [INFO] - Trial 17 podado por pruner.
+2026-08-19 08:03:13,155 [INFO] - 
+Trial 18 - Hiperparámetros:
+2026-08-19 08:03:13,156 [INFO] -   lr: 0.00021978955708150145
+2026-08-19 08:03:13,157 [INFO] -   optimizer_name: AdamW
+2026-08-19 08:03:13,157 [INFO] -   dropout: 0.21256866939744484
+2026-08-19 08:03:13,158 [INFO] -   weight_decay: 0.00011913327527919092
+2026-08-19 08:03:13,158 [INFO] -   batch_size: 128
+2026-08-19 08:03:13,159 [INFO] -   unfreeze_blocks: 3
+2026-08-19 08:03:57,315 [INFO] - [Trial 18] Epoch 1/50 | Train Loss: 0.4030 | Train Acc: 0.8750 | Train F1: 0.7265 | Val Loss: 0.0739 | Val Acc: 0.9795 | Val F1: 0.9768
+2026-08-19 08:04:42,258 [INFO] - [Trial 18] Epoch 2/50 | Train Loss: 0.0964 | Train Acc: 0.9715 | Train F1: 0.9526 | Val Loss: 0.0701 | Val Acc: 0.9791 | Val F1: 0.9825
+2026-08-19 08:05:27,320 [INFO] - [Trial 18] Epoch 3/50 | Train Loss: 0.0696 | Train Acc: 0.9796 | Train F1: 0.9663 | Val Loss: 0.0619 | Val Acc: 0.9814 | Val F1: 0.9827
+2026-08-19 08:06:12,267 [INFO] - [Trial 18] Epoch 4/50 | Train Loss: 0.0578 | Train Acc: 0.9826 | Train F1: 0.9733 | Val Loss: 0.0700 | Val Acc: 0.9760 | Val F1: 0.9752
+2026-08-19 08:06:56,780 [INFO] - [Trial 18] Epoch 5/50 | Train Loss: 0.0525 | Train Acc: 0.9838 | Train F1: 0.9747 | Val Loss: 0.0384 | Val Acc: 0.9915 | Val F1: 0.9891
+2026-08-19 08:07:41,922 [INFO] - [Trial 18] Epoch 6/50 | Train Loss: 0.0457 | Train Acc: 0.9857 | Train F1: 0.9793 | Val Loss: 0.0367 | Val Acc: 0.9886 | Val F1: 0.9892
+2026-08-19 08:08:26,679 [INFO] - [Trial 18] Epoch 7/50 | Train Loss: 0.0386 | Train Acc: 0.9881 | Train F1: 0.9825 | Val Loss: 0.0472 | Val Acc: 0.9842 | Val F1: 0.9828
+2026-08-19 08:09:11,894 [INFO] - [Trial 18] Epoch 8/50 | Train Loss: 0.0354 | Train Acc: 0.9895 | Train F1: 0.9857 | Val Loss: 0.0630 | Val Acc: 0.9785 | Val F1: 0.9750
+2026-08-19 08:09:57,088 [INFO] - [Trial 18] Epoch 9/50 | Train Loss: 0.0348 | Train Acc: 0.9897 | Train F1: 0.9867 | Val Loss: 0.0453 | Val Acc: 0.9874 | Val F1: 0.9884
+2026-08-19 08:10:41,884 [INFO] - [Trial 18] Epoch 10/50 | Train Loss: 0.0319 | Train Acc: 0.9897 | Train F1: 0.9838 | Val Loss: 0.0447 | Val Acc: 0.9880 | Val F1: 0.9823
+2026-08-19 08:11:26,838 [INFO] - [Trial 18] Epoch 11/50 | Train Loss: 0.0311 | Train Acc: 0.9909 | Train F1: 0.9880 | Val Loss: 0.0279 | Val Acc: 0.9934 | Val F1: 0.9832
+2026-08-19 08:12:11,861 [INFO] - [Trial 18] Epoch 12/50 | Train Loss: 0.0300 | Train Acc: 0.9909 | Train F1: 0.9893 | Val Loss: 0.0384 | Val Acc: 0.9893 | Val F1: 0.9899
+2026-08-19 08:12:56,752 [INFO] - [Trial 18] Epoch 13/50 | Train Loss: 0.0260 | Train Acc: 0.9910 | Train F1: 0.9855 | Val Loss: 0.0395 | Val Acc: 0.9883 | Val F1: 0.9831
+2026-08-19 08:13:41,844 [INFO] - [Trial 18] Epoch 14/50 | Train Loss: 0.0289 | Train Acc: 0.9908 | Train F1: 0.9861 | Val Loss: 0.1062 | Val Acc: 0.9643 | Val F1: 0.9483
+2026-08-19 08:14:26,891 [INFO] - [Trial 18] Epoch 15/50 | Train Loss: 0.0258 | Train Acc: 0.9914 | Train F1: 0.9912 | Val Loss: 0.0519 | Val Acc: 0.9832 | Val F1: 0.9841
+2026-08-19 08:15:11,771 [INFO] - [Trial 18] Epoch 16/50 | Train Loss: 0.0269 | Train Acc: 0.9912 | Train F1: 0.9901 | Val Loss: 0.0655 | Val Acc: 0.9801 | Val F1: 0.9721
+2026-08-19 08:15:57,292 [INFO] - [Trial 18] Epoch 17/50 | Train Loss: 0.0230 | Train Acc: 0.9927 | Train F1: 0.9903 | Val Loss: 0.0599 | Val Acc: 0.9810 | Val F1: 0.9697
+2026-08-19 08:16:42,701 [INFO] - [Trial 18] Epoch 18/50 | Train Loss: 0.0140 | Train Acc: 0.9956 | Train F1: 0.9942 | Val Loss: 0.0457 | Val Acc: 0.9861 | Val F1: 0.9789
+2026-08-19 08:17:27,670 [INFO] - [Trial 18] Epoch 19/50 | Train Loss: 0.0157 | Train Acc: 0.9954 | Train F1: 0.9945 | Val Loss: 0.0306 | Val Acc: 0.9912 | Val F1: 0.9852
+2026-08-19 08:18:12,902 [INFO] - [Trial 18] Epoch 20/50 | Train Loss: 0.0096 | Train Acc: 0.9966 | Train F1: 0.9956 | Val Loss: 0.0441 | Val Acc: 0.9861 | Val F1: 0.9796
+2026-08-19 08:18:57,925 [INFO] - [Trial 18] Epoch 21/50 | Train Loss: 0.0128 | Train Acc: 0.9959 | Train F1: 0.9941 | Val Loss: 0.0362 | Val Acc: 0.9880 | Val F1: 0.9848
+2026-08-19 08:19:42,910 [INFO] - [Trial 18] Epoch 22/50 | Train Loss: 0.0111 | Train Acc: 0.9964 | Train F1: 0.9962 | Val Loss: 0.0331 | Val Acc: 0.9889 | Val F1: 0.9871
+2026-08-19 08:19:42,920 [INFO] - Early stopping en época 22.
+2026-08-19 08:19:42,969 [INFO] - 
+Trial 19 - Hiperparámetros:
+2026-08-19 08:19:42,970 [INFO] -   lr: 0.0004509127970265371
+2026-08-19 08:19:42,971 [INFO] -   optimizer_name: AdamW
+2026-08-19 08:19:42,971 [INFO] -   dropout: 0.07962630509118448
+2026-08-19 08:19:42,972 [INFO] -   weight_decay: 0.0006015505914111137
+2026-08-19 08:19:42,972 [INFO] -   batch_size: 128
+2026-08-19 08:19:42,973 [INFO] -   unfreeze_blocks: 2
+2026-08-19 08:20:27,696 [INFO] - [Trial 19] Epoch 1/50 | Train Loss: 0.3177 | Train Acc: 0.9019 | Train F1: 0.7910 | Val Loss: 0.0819 | Val Acc: 0.9776 | Val F1: 0.9732
+2026-08-19 08:21:12,912 [INFO] - [Trial 19] Epoch 2/50 | Train Loss: 0.1036 | Train Acc: 0.9665 | Train F1: 0.9479 | Val Loss: 0.0698 | Val Acc: 0.9810 | Val F1: 0.9835
+2026-08-19 08:21:58,178 [INFO] - [Trial 19] Epoch 3/50 | Train Loss: 0.0756 | Train Acc: 0.9770 | Train F1: 0.9646 | Val Loss: 0.0757 | Val Acc: 0.9782 | Val F1: 0.9805
+2026-08-19 08:22:43,498 [INFO] - [Trial 19] Epoch 4/50 | Train Loss: 0.0685 | Train Acc: 0.9788 | Train F1: 0.9680 | Val Loss: 0.0772 | Val Acc: 0.9798 | Val F1: 0.9727
+2026-08-19 08:23:28,482 [INFO] - [Trial 19] Epoch 5/50 | Train Loss: 0.0611 | Train Acc: 0.9797 | Train F1: 0.9678 | Val Loss: 0.0735 | Val Acc: 0.9801 | Val F1: 0.9718
+2026-08-19 08:23:28,490 [INFO] - Trial 19 podado por pruner.
+2026-08-19 08:23:28,537 [INFO] - 
+Trial 20 - Hiperparámetros:
+2026-08-19 08:23:28,538 [INFO] -   lr: 0.00012673004776583114
+2026-08-19 08:23:28,538 [INFO] -   optimizer_name: AdamW
+2026-08-19 08:23:28,539 [INFO] -   dropout: 0.3853421023313617
+2026-08-19 08:23:28,540 [INFO] -   weight_decay: 3.219987220564718e-05
+2026-08-19 08:23:28,541 [INFO] -   batch_size: 128
+2026-08-19 08:23:28,541 [INFO] -   unfreeze_blocks: 3
+2026-08-19 08:24:12,912 [INFO] - [Trial 20] Epoch 1/50 | Train Loss: 0.5837 | Train Acc: 0.8258 | Train F1: 0.6090 | Val Loss: 0.1228 | Val Acc: 0.9640 | Val F1: 0.9344
+2026-08-19 08:24:57,863 [INFO] - [Trial 20] Epoch 2/50 | Train Loss: 0.1254 | Train Acc: 0.9637 | Train F1: 0.9210 | Val Loss: 0.0803 | Val Acc: 0.9731 | Val F1: 0.9726
+2026-08-19 08:25:42,683 [INFO] - [Trial 20] Epoch 3/50 | Train Loss: 0.0813 | Train Acc: 0.9765 | Train F1: 0.9563 | Val Loss: 0.0775 | Val Acc: 0.9731 | Val F1: 0.9643
+2026-08-19 08:25:42,692 [INFO] - Trial 20 podado por pruner.
+2026-08-19 08:25:42,735 [INFO] - 
+Trial 21 - Hiperparámetros:
+2026-08-19 08:25:42,735 [INFO] -   lr: 0.00019548559673883954
+2026-08-19 08:25:42,736 [INFO] -   optimizer_name: AdamW
+2026-08-19 08:25:42,736 [INFO] -   dropout: 0.21467244857776105
+2026-08-19 08:25:42,737 [INFO] -   weight_decay: 0.0007880305816318876
+2026-08-19 08:25:42,737 [INFO] -   batch_size: 128
+2026-08-19 08:25:42,738 [INFO] -   unfreeze_blocks: 3
+2026-08-19 08:26:26,665 [INFO] - [Trial 21] Epoch 1/50 | Train Loss: 0.4173 | Train Acc: 0.8725 | Train F1: 0.7170 | Val Loss: 0.0789 | Val Acc: 0.9820 | Val F1: 0.9743
+2026-08-19 08:27:11,891 [INFO] - [Trial 21] Epoch 2/50 | Train Loss: 0.0983 | Train Acc: 0.9704 | Train F1: 0.9483 | Val Loss: 0.0853 | Val Acc: 0.9693 | Val F1: 0.9708
+2026-08-19 08:27:56,814 [INFO] - [Trial 21] Epoch 3/50 | Train Loss: 0.0696 | Train Acc: 0.9793 | Train F1: 0.9667 | Val Loss: 0.0589 | Val Acc: 0.9839 | Val F1: 0.9801
+2026-08-19 08:27:56,824 [INFO] - Trial 21 podado por pruner.
+2026-08-19 08:27:56,874 [INFO] - 
+Trial 22 - Hiperparámetros:
+2026-08-19 08:27:56,875 [INFO] -   lr: 0.0004861391519061615
+2026-08-19 08:27:56,875 [INFO] -   optimizer_name: AdamW
+2026-08-19 08:27:56,876 [INFO] -   dropout: 0.2623751443746567
+2026-08-19 08:27:56,876 [INFO] -   weight_decay: 0.002159011903322794
+2026-08-19 08:27:56,877 [INFO] -   batch_size: 128
+2026-08-19 08:27:56,878 [INFO] -   unfreeze_blocks: 3
+2026-08-19 08:28:41,697 [INFO] - [Trial 22] Epoch 1/50 | Train Loss: 0.3139 | Train Acc: 0.9023 | Train F1: 0.7928 | Val Loss: 0.0733 | Val Acc: 0.9779 | Val F1: 0.9601
+2026-08-19 08:29:26,497 [INFO] - [Trial 22] Epoch 2/50 | Train Loss: 0.0949 | Train Acc: 0.9699 | Train F1: 0.9494 | Val Loss: 0.0965 | Val Acc: 0.9703 | Val F1: 0.9649
+2026-08-19 08:30:11,196 [INFO] - [Trial 22] Epoch 3/50 | Train Loss: 0.0802 | Train Acc: 0.9735 | Train F1: 0.9584 | Val Loss: 0.0628 | Val Acc: 0.9807 | Val F1: 0.9822
+2026-08-19 08:30:56,109 [INFO] - [Trial 22] Epoch 4/50 | Train Loss: 0.0605 | Train Acc: 0.9804 | Train F1: 0.9704 | Val Loss: 0.0549 | Val Acc: 0.9826 | Val F1: 0.9783
+2026-08-19 08:31:40,991 [INFO] - [Trial 22] Epoch 5/50 | Train Loss: 0.0571 | Train Acc: 0.9822 | Train F1: 0.9719 | Val Loss: 0.0478 | Val Acc: 0.9858 | Val F1: 0.9870
+2026-08-19 08:32:26,126 [INFO] - [Trial 22] Epoch 6/50 | Train Loss: 0.0489 | Train Acc: 0.9854 | Train F1: 0.9792 | Val Loss: 0.0345 | Val Acc: 0.9880 | Val F1: 0.9858
+2026-08-19 08:33:10,893 [INFO] - [Trial 22] Epoch 7/50 | Train Loss: 0.0452 | Train Acc: 0.9848 | Train F1: 0.9807 | Val Loss: 0.0720 | Val Acc: 0.9788 | Val F1: 0.9725
+2026-08-19 08:33:55,896 [INFO] - [Trial 22] Epoch 8/50 | Train Loss: 0.0416 | Train Acc: 0.9860 | Train F1: 0.9816 | Val Loss: 0.0474 | Val Acc: 0.9855 | Val F1: 0.9582
+2026-08-19 08:34:41,191 [INFO] - [Trial 22] Epoch 9/50 | Train Loss: 0.0433 | Train Acc: 0.9866 | Train F1: 0.9783 | Val Loss: 0.0409 | Val Acc: 0.9889 | Val F1: 0.9812
+2026-08-19 08:35:26,097 [INFO] - [Trial 22] Epoch 10/50 | Train Loss: 0.0375 | Train Acc: 0.9880 | Train F1: 0.9827 | Val Loss: 0.0684 | Val Acc: 0.9801 | Val F1: 0.9709
+2026-08-19 08:36:10,900 [INFO] - [Trial 22] Epoch 11/50 | Train Loss: 0.0345 | Train Acc: 0.9892 | Train F1: 0.9872 | Val Loss: 0.0390 | Val Acc: 0.9889 | Val F1: 0.9874
+2026-08-19 08:36:55,613 [INFO] - [Trial 22] Epoch 12/50 | Train Loss: 0.0307 | Train Acc: 0.9901 | Train F1: 0.9880 | Val Loss: 0.0477 | Val Acc: 0.9848 | Val F1: 0.9809
+2026-08-19 08:37:40,509 [INFO] - [Trial 22] Epoch 13/50 | Train Loss: 0.0233 | Train Acc: 0.9925 | Train F1: 0.9889 | Val Loss: 0.0411 | Val Acc: 0.9864 | Val F1: 0.9840
+2026-08-19 08:38:25,593 [INFO] - [Trial 22] Epoch 14/50 | Train Loss: 0.0199 | Train Acc: 0.9940 | Train F1: 0.9921 | Val Loss: 0.0347 | Val Acc: 0.9905 | Val F1: 0.9869
+2026-08-19 08:39:10,369 [INFO] - [Trial 22] Epoch 15/50 | Train Loss: 0.0188 | Train Acc: 0.9939 | Train F1: 0.9925 | Val Loss: 0.0275 | Val Acc: 0.9937 | Val F1: 0.9941
+2026-08-19 08:39:55,337 [INFO] - [Trial 22] Epoch 16/50 | Train Loss: 0.0183 | Train Acc: 0.9940 | Train F1: 0.9921 | Val Loss: 0.0468 | Val Acc: 0.9870 | Val F1: 0.9885
+2026-08-19 08:40:40,326 [INFO] - [Trial 22] Epoch 17/50 | Train Loss: 0.0149 | Train Acc: 0.9950 | Train F1: 0.9939 | Val Loss: 0.0376 | Val Acc: 0.9915 | Val F1: 0.9933
+2026-08-19 08:41:25,323 [INFO] - [Trial 22] Epoch 18/50 | Train Loss: 0.0162 | Train Acc: 0.9945 | Train F1: 0.9922 | Val Loss: 0.0417 | Val Acc: 0.9874 | Val F1: 0.9893
+2026-08-19 08:42:10,067 [INFO] - [Trial 22] Epoch 19/50 | Train Loss: 0.0158 | Train Acc: 0.9942 | Train F1: 0.9946 | Val Loss: 0.0376 | Val Acc: 0.9874 | Val F1: 0.9771
+2026-08-19 08:42:54,911 [INFO] - [Trial 22] Epoch 20/50 | Train Loss: 0.0135 | Train Acc: 0.9952 | Train F1: 0.9947 | Val Loss: 0.0380 | Val Acc: 0.9896 | Val F1: 0.9887
+2026-08-19 08:43:39,910 [INFO] - [Trial 22] Epoch 21/50 | Train Loss: 0.0167 | Train Acc: 0.9941 | Train F1: 0.9907 | Val Loss: 0.0370 | Val Acc: 0.9870 | Val F1: 0.9852
+2026-08-19 08:44:24,939 [INFO] - [Trial 22] Epoch 22/50 | Train Loss: 0.0105 | Train Acc: 0.9972 | Train F1: 0.9969 | Val Loss: 0.0323 | Val Acc: 0.9905 | Val F1: 0.9924
+2026-08-19 08:45:09,995 [INFO] - [Trial 22] Epoch 23/50 | Train Loss: 0.0107 | Train Acc: 0.9965 | Train F1: 0.9963 | Val Loss: 0.0366 | Val Acc: 0.9889 | Val F1: 0.9913
+2026-08-19 08:45:55,148 [INFO] - [Trial 22] Epoch 24/50 | Train Loss: 0.0097 | Train Acc: 0.9971 | Train F1: 0.9969 | Val Loss: 0.0368 | Val Acc: 0.9889 | Val F1: 0.9902
+2026-08-19 08:46:40,109 [INFO] - [Trial 22] Epoch 25/50 | Train Loss: 0.0061 | Train Acc: 0.9979 | Train F1: 0.9975 | Val Loss: 0.0361 | Val Acc: 0.9877 | Val F1: 0.9846
+2026-08-19 08:46:40,119 [INFO] - Early stopping en época 25.
+2026-08-19 08:46:40,162 [INFO] - 
+Trial 23 - Hiperparámetros:
+2026-08-19 08:46:40,162 [INFO] -   lr: 3.895146447203427e-05
+2026-08-19 08:46:40,163 [INFO] -   optimizer_name: AdamW
+2026-08-19 08:46:40,163 [INFO] -   dropout: 0.17091134510835657
+2026-08-19 08:46:40,163 [INFO] -   weight_decay: 0.0003336501426835791
+2026-08-19 08:46:40,164 [INFO] -   batch_size: 128
+2026-08-19 08:46:40,165 [INFO] -   unfreeze_blocks: 3
+2026-08-19 08:47:24,569 [INFO] - [Trial 23] Epoch 1/50 | Train Loss: 1.0716 | Train Acc: 0.6814 | Train F1: 0.4640 | Val Loss: 0.2865 | Val Acc: 0.9077 | Val F1: 0.6439
+2026-08-19 08:48:09,515 [INFO] - [Trial 23] Epoch 2/50 | Train Loss: 0.2768 | Train Acc: 0.9226 | Train F1: 0.7482 | Val Loss: 0.1437 | Val Acc: 0.9513 | Val F1: 0.8831
+2026-08-19 08:48:54,493 [INFO] - [Trial 23] Epoch 3/50 | Train Loss: 0.1502 | Train Acc: 0.9598 | Train F1: 0.9100 | Val Loss: 0.0865 | Val Acc: 0.9763 | Val F1: 0.9646
+2026-08-19 08:48:54,502 [INFO] - Trial 23 podado por pruner.
+2026-08-19 08:48:54,546 [INFO] - 
+Trial 24 - Hiperparámetros:
+2026-08-19 08:48:54,547 [INFO] -   lr: 0.00039016443982755884
+2026-08-19 08:48:54,548 [INFO] -   optimizer_name: AdamW
+2026-08-19 08:48:54,548 [INFO] -   dropout: 0.06035454216372041
+2026-08-19 08:48:54,549 [INFO] -   weight_decay: 0.016199106865437903
+2026-08-19 08:48:54,549 [INFO] -   batch_size: 256
+2026-08-19 08:48:54,550 [INFO] -   unfreeze_blocks: 2
+2026-08-19 08:49:39,138 [INFO] - [Trial 24] Epoch 1/50 | Train Loss: 0.4207 | Train Acc: 0.8712 | Train F1: 0.7419 | Val Loss: 0.1089 | Val Acc: 0.9674 | Val F1: 0.9434
+2026-08-19 08:50:24,277 [INFO] - [Trial 24] Epoch 2/50 | Train Loss: 0.0963 | Train Acc: 0.9712 | Train F1: 0.9481 | Val Loss: 0.0716 | Val Acc: 0.9776 | Val F1: 0.9734
+2026-08-19 08:51:09,480 [INFO] - [Trial 24] Epoch 3/50 | Train Loss: 0.0739 | Train Acc: 0.9794 | Train F1: 0.9662 | Val Loss: 0.0527 | Val Acc: 0.9823 | Val F1: 0.9784
+2026-08-19 08:51:09,489 [INFO] - Trial 24 podado por pruner.
+2026-08-19 08:51:09,534 [INFO] - 
+Trial 25 - Hiperparámetros:
+2026-08-19 08:51:09,535 [INFO] -   lr: 0.00016893806027344123
+2026-08-19 08:51:09,536 [INFO] -   optimizer_name: AdamW
+2026-08-19 08:51:09,536 [INFO] -   dropout: 0.2600359248479944
+2026-08-19 08:51:09,537 [INFO] -   weight_decay: 0.007134198023597719
+2026-08-19 08:51:09,537 [INFO] -   batch_size: 128
+2026-08-19 08:51:09,538 [INFO] -   unfreeze_blocks: 4
+2026-08-19 08:51:53,396 [INFO] - [Trial 25] Epoch 1/50 | Train Loss: 0.4564 | Train Acc: 0.8584 | Train F1: 0.6962 | Val Loss: 0.1076 | Val Acc: 0.9687 | Val F1: 0.9600
+2026-08-19 08:52:37,996 [INFO] - [Trial 25] Epoch 2/50 | Train Loss: 0.1015 | Train Acc: 0.9704 | Train F1: 0.9512 | Val Loss: 0.0733 | Val Acc: 0.9776 | Val F1: 0.9778
+2026-08-19 08:53:22,474 [INFO] - [Trial 25] Epoch 3/50 | Train Loss: 0.0690 | Train Acc: 0.9803 | Train F1: 0.9677 | Val Loss: 0.0474 | Val Acc: 0.9874 | Val F1: 0.9816
+2026-08-19 08:53:22,485 [INFO] - Trial 25 podado por pruner.
+2026-08-19 08:53:22,535 [INFO] - 
+Trial 26 - Hiperparámetros:
+2026-08-19 08:53:22,535 [INFO] -   lr: 0.00031318789857992367
+2026-08-19 08:53:22,536 [INFO] -   optimizer_name: AdamW
+2026-08-19 08:53:22,536 [INFO] -   dropout: 0.1768103698213808
+2026-08-19 08:53:22,537 [INFO] -   weight_decay: 0.001648227400580785
+2026-08-19 08:53:22,537 [INFO] -   batch_size: 128
+2026-08-19 08:53:22,538 [INFO] -   unfreeze_blocks: 3
+2026-08-19 08:54:06,898 [INFO] - [Trial 26] Epoch 1/50 | Train Loss: 0.3571 | Train Acc: 0.8886 | Train F1: 0.7780 | Val Loss: 0.0877 | Val Acc: 0.9776 | Val F1: 0.9756
+2026-08-19 08:54:51,916 [INFO] - [Trial 26] Epoch 2/50 | Train Loss: 0.0857 | Train Acc: 0.9755 | Train F1: 0.9577 | Val Loss: 0.0983 | Val Acc: 0.9665 | Val F1: 0.9708
+2026-08-19 08:55:36,912 [INFO] - [Trial 26] Epoch 3/50 | Train Loss: 0.0714 | Train Acc: 0.9780 | Train F1: 0.9652 | Val Loss: 0.0636 | Val Acc: 0.9785 | Val F1: 0.9805
+2026-08-19 08:55:36,924 [INFO] - Trial 26 podado por pruner.
+2026-08-19 08:55:36,977 [INFO] - 
+Trial 27 - Hiperparámetros:
+2026-08-19 08:55:36,978 [INFO] -   lr: 0.00013511062091048085
+2026-08-19 08:55:36,978 [INFO] -   optimizer_name: AdamW
+2026-08-19 08:55:36,979 [INFO] -   dropout: 0.3556951740509444
+2026-08-19 08:55:36,979 [INFO] -   weight_decay: 0.028057517347591973
+2026-08-19 08:55:36,980 [INFO] -   batch_size: 128
+2026-08-19 08:55:36,980 [INFO] -   unfreeze_blocks: 1
+2026-08-19 08:56:21,530 [INFO] - [Trial 27] Epoch 1/50 | Train Loss: 0.7238 | Train Acc: 0.7757 | Train F1: 0.5362 | Val Loss: 0.2169 | Val Acc: 0.9204 | Val F1: 0.6607
+2026-08-19 08:57:06,780 [INFO] - [Trial 27] Epoch 2/50 | Train Loss: 0.2423 | Train Acc: 0.9241 | Train F1: 0.8057 | Val Loss: 0.1199 | Val Acc: 0.9646 | Val F1: 0.9563
+2026-08-19 08:57:51,934 [INFO] - [Trial 27] Epoch 3/50 | Train Loss: 0.1552 | Train Acc: 0.9529 | Train F1: 0.9063 | Val Loss: 0.1036 | Val Acc: 0.9674 | Val F1: 0.9549
+2026-08-19 08:57:51,943 [INFO] - Trial 27 podado por pruner.
+2026-08-19 08:57:51,989 [INFO] - 
+Trial 28 - Hiperparámetros:
+2026-08-19 08:57:51,990 [INFO] -   lr: 6.0847382430872955e-05
+2026-08-19 08:57:51,990 [INFO] -   optimizer_name: AdamW
+2026-08-19 08:57:51,991 [INFO] -   dropout: 0.24915027624894776
+2026-08-19 08:57:51,991 [INFO] -   weight_decay: 0.0003668212690367519
+2026-08-19 08:57:51,992 [INFO] -   batch_size: 128
+2026-08-19 08:57:51,992 [INFO] -   unfreeze_blocks: 2
+2026-08-19 08:58:36,588 [INFO] - [Trial 28] Epoch 1/50 | Train Loss: 0.8976 | Train Acc: 0.7264 | Train F1: 0.4734 | Val Loss: 0.2528 | Val Acc: 0.9229 | Val F1: 0.6537
+2026-08-19 08:59:21,713 [INFO] - [Trial 28] Epoch 2/50 | Train Loss: 0.2407 | Train Acc: 0.9284 | Train F1: 0.7803 | Val Loss: 0.1245 | Val Acc: 0.9643 | Val F1: 0.9550
+2026-08-19 09:00:06,914 [INFO] - [Trial 28] Epoch 3/50 | Train Loss: 0.1335 | Train Acc: 0.9635 | Train F1: 0.9237 | Val Loss: 0.0771 | Val Acc: 0.9779 | Val F1: 0.9693
+2026-08-19 09:00:06,923 [INFO] - Trial 28 podado por pruner.
+2026-08-19 09:00:06,970 [INFO] - 
+Trial 29 - Hiperparámetros:
+2026-08-19 09:00:06,971 [INFO] -   lr: 0.0006447151665278471
+2026-08-19 09:00:06,972 [INFO] -   optimizer_name: AdamW
+2026-08-19 09:00:06,973 [INFO] -   dropout: 0.19167279740942283
+2026-08-19 09:00:06,974 [INFO] -   weight_decay: 0.004238745578461954
+2026-08-19 09:00:06,975 [INFO] -   batch_size: 256
+2026-08-19 09:00:06,976 [INFO] -   unfreeze_blocks: 4
+2026-08-19 09:00:50,879 [INFO] - [Trial 29] Epoch 1/50 | Train Loss: 0.3741 | Train Acc: 0.8838 | Train F1: 0.7789 | Val Loss: 0.1097 | Val Acc: 0.9586 | Val F1: 0.9664
+2026-08-19 09:01:34,980 [INFO] - [Trial 29] Epoch 2/50 | Train Loss: 0.0913 | Train Acc: 0.9735 | Train F1: 0.9598 | Val Loss: 0.0918 | Val Acc: 0.9804 | Val F1: 0.9785
+2026-08-19 09:02:19,699 [INFO] - [Trial 29] Epoch 3/50 | Train Loss: 0.0722 | Train Acc: 0.9785 | Train F1: 0.9668 | Val Loss: 0.0876 | Val Acc: 0.9744 | Val F1: 0.9648
+2026-08-19 09:02:19,707 [INFO] - Trial 29 podado por pruner.
+2026-08-19 09:02:19,755 [INFO] - 
+Trial 30 - Hiperparámetros:
+2026-08-19 09:02:19,756 [INFO] -   lr: 3.359606560142613e-05
+2026-08-19 09:02:19,757 [INFO] -   optimizer_name: AdamW
+2026-08-19 09:02:19,757 [INFO] -   dropout: 0.08235551476292444
+2026-08-19 09:02:19,758 [INFO] -   weight_decay: 4.009330345526168e-05
+2026-08-19 09:02:19,759 [INFO] -   batch_size: 32
+2026-08-19 09:02:19,760 [INFO] -   unfreeze_blocks: 3
+2026-08-19 09:03:04,264 [INFO] - [Trial 30] Epoch 1/50 | Train Loss: 0.6654 | Train Acc: 0.8064 | Train F1: 0.5719 | Val Loss: 0.1296 | Val Acc: 0.9640 | Val F1: 0.8759
+2026-08-19 09:03:49,765 [INFO] - [Trial 30] Epoch 2/50 | Train Loss: 0.1665 | Train Acc: 0.9556 | Train F1: 0.9030 | Val Loss: 0.0718 | Val Acc: 0.9798 | Val F1: 0.9681
+2026-08-19 09:04:34,643 [INFO] - [Trial 30] Epoch 3/50 | Train Loss: 0.1053 | Train Acc: 0.9699 | Train F1: 0.9451 | Val Loss: 0.0536 | Val Acc: 0.9836 | Val F1: 0.9741
+2026-08-19 09:04:34,653 [INFO] - Trial 30 podado por pruner.
+2026-08-19 09:04:34,700 [INFO] - 
+Trial 31 - Hiperparámetros:
+2026-08-19 09:04:34,701 [INFO] -   lr: 0.0005287644139847222
+2026-08-19 09:04:34,701 [INFO] -   optimizer_name: AdamW
+2026-08-19 09:04:34,702 [INFO] -   dropout: 0.27445040102071616
+2026-08-19 09:04:34,702 [INFO] -   weight_decay: 0.0016629947733298003
+2026-08-19 09:04:34,703 [INFO] -   batch_size: 128
+2026-08-19 09:04:34,704 [INFO] -   unfreeze_blocks: 3
+2026-08-19 09:05:19,560 [INFO] - [Trial 31] Epoch 1/50 | Train Loss: 0.3020 | Train Acc: 0.9070 | Train F1: 0.8117 | Val Loss: 0.0834 | Val Acc: 0.9725 | Val F1: 0.9755
+2026-08-19 09:06:04,341 [INFO] - [Trial 31] Epoch 2/50 | Train Loss: 0.0909 | Train Acc: 0.9720 | Train F1: 0.9555 | Val Loss: 0.0603 | Val Acc: 0.9848 | Val F1: 0.9811
+2026-08-19 09:06:49,563 [INFO] - [Trial 31] Epoch 3/50 | Train Loss: 0.0748 | Train Acc: 0.9765 | Train F1: 0.9619 | Val Loss: 0.0786 | Val Acc: 0.9706 | Val F1: 0.9704
+2026-08-19 09:06:49,571 [INFO] - Trial 31 podado por pruner.
+2026-08-19 09:06:49,617 [INFO] - 
+Trial 32 - Hiperparámetros:
+2026-08-19 09:06:49,617 [INFO] -   lr: 0.000232871453847229
+2026-08-19 09:06:49,618 [INFO] -   optimizer_name: AdamW
+2026-08-19 09:06:49,618 [INFO] -   dropout: 0.24478564011355952
+2026-08-19 09:06:49,619 [INFO] -   weight_decay: 0.0027026286638637672
+2026-08-19 09:06:49,619 [INFO] -   batch_size: 128
+2026-08-19 09:06:49,620 [INFO] -   unfreeze_blocks: 3
+2026-08-19 09:07:33,895 [INFO] - [Trial 32] Epoch 1/50 | Train Loss: 0.3913 | Train Acc: 0.8815 | Train F1: 0.7640 | Val Loss: 0.1188 | Val Acc: 0.9608 | Val F1: 0.9583
+2026-08-19 09:08:19,358 [INFO] - [Trial 32] Epoch 2/50 | Train Loss: 0.0991 | Train Acc: 0.9705 | Train F1: 0.9444 | Val Loss: 0.0675 | Val Acc: 0.9817 | Val F1: 0.9833
+2026-08-19 09:09:04,581 [INFO] - [Trial 32] Epoch 3/50 | Train Loss: 0.0698 | Train Acc: 0.9789 | Train F1: 0.9696 | Val Loss: 0.0541 | Val Acc: 0.9814 | Val F1: 0.9788
+2026-08-19 09:09:49,109 [INFO] - [Trial 32] Epoch 4/50 | Train Loss: 0.0586 | Train Acc: 0.9834 | Train F1: 0.9747 | Val Loss: 0.0623 | Val Acc: 0.9785 | Val F1: 0.9724
+2026-08-19 09:10:34,555 [INFO] - [Trial 32] Epoch 5/50 | Train Loss: 0.0522 | Train Acc: 0.9842 | Train F1: 0.9765 | Val Loss: 0.0462 | Val Acc: 0.9851 | Val F1: 0.9822
+2026-08-19 09:10:34,568 [INFO] - Trial 32 podado por pruner.
+2026-08-19 09:10:34,627 [INFO] - 
+Trial 33 - Hiperparámetros:
+2026-08-19 09:10:34,628 [INFO] -   lr: 8.489274660966985e-05
+2026-08-19 09:10:34,628 [INFO] -   optimizer_name: AdamW
+2026-08-19 09:10:34,629 [INFO] -   dropout: 0.304566950247557
+2026-08-19 09:10:34,629 [INFO] -   weight_decay: 0.0003449061674015575
+2026-08-19 09:10:34,630 [INFO] -   batch_size: 128
+2026-08-19 09:10:34,631 [INFO] -   unfreeze_blocks: 4
+2026-08-19 09:11:18,970 [INFO] - [Trial 33] Epoch 1/50 | Train Loss: 0.6667 | Train Acc: 0.7992 | Train F1: 0.5702 | Val Loss: 0.1366 | Val Acc: 0.9589 | Val F1: 0.8635
+2026-08-19 09:12:03,778 [INFO] - [Trial 33] Epoch 2/50 | Train Loss: 0.1416 | Train Acc: 0.9584 | Train F1: 0.9166 | Val Loss: 0.0981 | Val Acc: 0.9671 | Val F1: 0.9680
+2026-08-19 09:12:48,839 [INFO] - [Trial 33] Epoch 3/50 | Train Loss: 0.0882 | Train Acc: 0.9756 | Train F1: 0.9512 | Val Loss: 0.0501 | Val Acc: 0.9858 | Val F1: 0.9850
+2026-08-19 09:13:33,575 [INFO] - [Trial 33] Epoch 4/50 | Train Loss: 0.0687 | Train Acc: 0.9809 | Train F1: 0.9685 | Val Loss: 0.0534 | Val Acc: 0.9814 | Val F1: 0.9717
+2026-08-19 09:14:18,519 [INFO] - [Trial 33] Epoch 5/50 | Train Loss: 0.0584 | Train Acc: 0.9831 | Train F1: 0.9729 | Val Loss: 0.0382 | Val Acc: 0.9886 | Val F1: 0.9844
+2026-08-19 09:14:18,529 [INFO] - Trial 33 podado por pruner.
+2026-08-19 09:14:18,580 [INFO] - 
+Trial 34 - Hiperparámetros:
+2026-08-19 09:14:18,580 [INFO] -   lr: 0.0003509276761107777
+2026-08-19 09:14:18,581 [INFO] -   optimizer_name: AdamW
+2026-08-19 09:14:18,582 [INFO] -   dropout: 0.35260723308604935
+2026-08-19 09:14:18,582 [INFO] -   weight_decay: 0.006540320250026563
+2026-08-19 09:14:18,583 [INFO] -   batch_size: 128
+2026-08-19 09:14:18,584 [INFO] -   unfreeze_blocks: 3
+2026-08-19 09:15:02,931 [INFO] - [Trial 34] Epoch 1/50 | Train Loss: 0.3571 | Train Acc: 0.8912 | Train F1: 0.7588 | Val Loss: 0.0799 | Val Acc: 0.9750 | Val F1: 0.9672
+2026-08-19 09:15:48,372 [INFO] - [Trial 34] Epoch 2/50 | Train Loss: 0.0953 | Train Acc: 0.9705 | Train F1: 0.9501 | Val Loss: 0.0818 | Val Acc: 0.9722 | Val F1: 0.9731
+2026-08-19 09:16:33,957 [INFO] - [Trial 34] Epoch 3/50 | Train Loss: 0.0739 | Train Acc: 0.9779 | Train F1: 0.9638 | Val Loss: 0.0618 | Val Acc: 0.9791 | Val F1: 0.9794
+2026-08-19 09:16:33,969 [INFO] - Trial 34 podado por pruner.
+2026-08-19 09:16:34,023 [INFO] - 
+Trial 35 - Hiperparámetros:
+2026-08-19 09:16:34,024 [INFO] -   lr: 0.0001361275360630024
+2026-08-19 09:16:34,024 [INFO] -   optimizer_name: AdamW
+2026-08-19 09:16:34,025 [INFO] -   dropout: 0.1941013521403895
+2026-08-19 09:16:34,025 [INFO] -   weight_decay: 0.03136006941111468
+2026-08-19 09:16:34,026 [INFO] -   batch_size: 32
+2026-08-19 09:16:34,027 [INFO] -   unfreeze_blocks: 2
+2026-08-19 09:17:18,670 [INFO] - [Trial 35] Epoch 1/50 | Train Loss: 0.3682 | Train Acc: 0.8905 | Train F1: 0.7824 | Val Loss: 0.0808 | Val Acc: 0.9769 | Val F1: 0.9819
+2026-08-19 09:18:04,406 [INFO] - [Trial 35] Epoch 2/50 | Train Loss: 0.1209 | Train Acc: 0.9613 | Train F1: 0.9363 | Val Loss: 0.0733 | Val Acc: 0.9763 | Val F1: 0.9781
+2026-08-19 09:18:49,607 [INFO] - [Trial 35] Epoch 3/50 | Train Loss: 0.0893 | Train Acc: 0.9735 | Train F1: 0.9575 | Val Loss: 0.0469 | Val Acc: 0.9883 | Val F1: 0.9882
+2026-08-19 09:19:35,007 [INFO] - [Trial 35] Epoch 4/50 | Train Loss: 0.0775 | Train Acc: 0.9762 | Train F1: 0.9633 | Val Loss: 0.0646 | Val Acc: 0.9795 | Val F1: 0.9806
+2026-08-19 09:20:20,594 [INFO] - [Trial 35] Epoch 5/50 | Train Loss: 0.0680 | Train Acc: 0.9800 | Train F1: 0.9707 | Val Loss: 0.0517 | Val Acc: 0.9848 | Val F1: 0.9884
+2026-08-19 09:21:05,858 [INFO] - [Trial 35] Epoch 6/50 | Train Loss: 0.0590 | Train Acc: 0.9815 | Train F1: 0.9738 | Val Loss: 0.0571 | Val Acc: 0.9851 | Val F1: 0.9793
+2026-08-19 09:21:51,466 [INFO] - [Trial 35] Epoch 7/50 | Train Loss: 0.0591 | Train Acc: 0.9819 | Train F1: 0.9735 | Val Loss: 0.0334 | Val Acc: 0.9899 | Val F1: 0.9919
+2026-08-19 09:22:37,063 [INFO] - [Trial 35] Epoch 8/50 | Train Loss: 0.0527 | Train Acc: 0.9834 | Train F1: 0.9786 | Val Loss: 0.0279 | Val Acc: 0.9921 | Val F1: 0.9907
+2026-08-19 09:23:22,813 [INFO] - [Trial 35] Epoch 9/50 | Train Loss: 0.0443 | Train Acc: 0.9850 | Train F1: 0.9776 | Val Loss: 0.0575 | Val Acc: 0.9810 | Val F1: 0.9734
+2026-08-19 09:24:08,407 [INFO] - [Trial 35] Epoch 10/50 | Train Loss: 0.0497 | Train Acc: 0.9842 | Train F1: 0.9697 | Val Loss: 0.0394 | Val Acc: 0.9877 | Val F1: 0.9880
+2026-08-19 09:24:54,028 [INFO] - [Trial 35] Epoch 11/50 | Train Loss: 0.0418 | Train Acc: 0.9868 | Train F1: 0.9822 | Val Loss: 0.0431 | Val Acc: 0.9851 | Val F1: 0.9853
+2026-08-19 09:25:39,233 [INFO] - [Trial 35] Epoch 12/50 | Train Loss: 0.0400 | Train Acc: 0.9878 | Train F1: 0.9822 | Val Loss: 0.0682 | Val Acc: 0.9788 | Val F1: 0.9837
+2026-08-19 09:26:24,464 [INFO] - [Trial 35] Epoch 13/50 | Train Loss: 0.0403 | Train Acc: 0.9862 | Train F1: 0.9822 | Val Loss: 0.0443 | Val Acc: 0.9851 | Val F1: 0.9828
+2026-08-19 09:27:09,681 [INFO] - [Trial 35] Epoch 14/50 | Train Loss: 0.0411 | Train Acc: 0.9859 | Train F1: 0.9774 | Val Loss: 0.0525 | Val Acc: 0.9848 | Val F1: 0.9817
+2026-08-19 09:27:55,013 [INFO] - [Trial 35] Epoch 15/50 | Train Loss: 0.0259 | Train Acc: 0.9918 | Train F1: 0.9901 | Val Loss: 0.0419 | Val Acc: 0.9877 | Val F1: 0.9871
+2026-08-19 09:28:40,604 [INFO] - [Trial 35] Epoch 16/50 | Train Loss: 0.0240 | Train Acc: 0.9921 | Train F1: 0.9901 | Val Loss: 0.0654 | Val Acc: 0.9807 | Val F1: 0.9840
+2026-08-19 09:29:26,028 [INFO] - [Trial 35] Epoch 17/50 | Train Loss: 0.0239 | Train Acc: 0.9924 | Train F1: 0.9898 | Val Loss: 0.0394 | Val Acc: 0.9874 | Val F1: 0.9858
+2026-08-19 09:29:26,037 [INFO] - Early stopping en época 17.
+2026-08-19 09:29:26,087 [INFO] - 
+Trial 36 - Hiperparámetros:
+2026-08-19 09:29:26,088 [INFO] -   lr: 2.0155180724390927e-05
+2026-08-19 09:29:26,088 [INFO] -   optimizer_name: AdamW
+2026-08-19 09:29:26,089 [INFO] -   dropout: 0.27576750521677246
+2026-08-19 09:29:26,090 [INFO] -   weight_decay: 0.00021119647171296876
+2026-08-19 09:29:26,091 [INFO] -   batch_size: 128
+2026-08-19 09:29:26,091 [INFO] -   unfreeze_blocks: 3
+2026-08-19 09:30:10,549 [INFO] - [Trial 36] Epoch 1/50 | Train Loss: 1.5068 | Train Acc: 0.5398 | Train F1: 0.3121 | Val Loss: 0.5808 | Val Acc: 0.8265 | Val F1: 0.5107
+2026-08-19 09:30:55,645 [INFO] - [Trial 36] Epoch 2/50 | Train Loss: 0.5678 | Train Acc: 0.8496 | Train F1: 0.5883 | Val Loss: 0.2690 | Val Acc: 0.9216 | Val F1: 0.6657
+2026-08-19 09:31:40,654 [INFO] - [Trial 36] Epoch 3/50 | Train Loss: 0.3180 | Train Acc: 0.9141 | Train F1: 0.6847 | Val Loss: 0.1701 | Val Acc: 0.9482 | Val F1: 0.7543
+2026-08-19 09:31:40,664 [INFO] - Trial 36 podado por pruner.
+2026-08-19 09:31:40,713 [INFO] - 
+Trial 37 - Hiperparámetros:
+2026-08-19 09:31:40,714 [INFO] -   lr: 0.0009838044715635272
+2026-08-19 09:31:40,714 [INFO] -   optimizer_name: AdamW
+2026-08-19 09:31:40,715 [INFO] -   dropout: 0.4235445992826575
+2026-08-19 09:31:40,716 [INFO] -   weight_decay: 0.002183808280119469
+2026-08-19 09:31:40,716 [INFO] -   batch_size: 128
+2026-08-19 09:31:40,717 [INFO] -   unfreeze_blocks: 3
+2026-08-19 09:32:25,166 [INFO] - [Trial 37] Epoch 1/50 | Train Loss: 0.3206 | Train Acc: 0.8979 | Train F1: 0.7899 | Val Loss: 0.0659 | Val Acc: 0.9772 | Val F1: 0.8896
+2026-08-19 09:33:10,376 [INFO] - [Trial 37] Epoch 2/50 | Train Loss: 0.1082 | Train Acc: 0.9646 | Train F1: 0.9381 | Val Loss: 0.0887 | Val Acc: 0.9712 | Val F1: 0.9598
+2026-08-19 09:33:55,349 [INFO] - [Trial 37] Epoch 3/50 | Train Loss: 0.0889 | Train Acc: 0.9713 | Train F1: 0.9567 | Val Loss: 0.0728 | Val Acc: 0.9769 | Val F1: 0.9615
+2026-08-19 09:33:55,359 [INFO] - Trial 37 podado por pruner.
+2026-08-19 09:33:55,406 [INFO] - 
+Trial 38 - Hiperparámetros:
+2026-08-19 09:33:55,406 [INFO] -   lr: 0.0005076237880140189
+2026-08-19 09:33:55,407 [INFO] -   optimizer_name: AdamW
+2026-08-19 09:33:55,408 [INFO] -   dropout: 0.13638825154924902
+2026-08-19 09:33:55,408 [INFO] -   weight_decay: 0.0011999050350657852
+2026-08-19 09:33:55,409 [INFO] -   batch_size: 256
+2026-08-19 09:33:55,410 [INFO] -   unfreeze_blocks: 4
+2026-08-19 09:34:39,048 [INFO] - [Trial 38] Epoch 1/50 | Train Loss: 0.3699 | Train Acc: 0.8846 | Train F1: 0.7714 | Val Loss: 0.1391 | Val Acc: 0.9510 | Val F1: 0.9286
+2026-08-19 09:35:23,124 [INFO] - [Trial 38] Epoch 2/50 | Train Loss: 0.0874 | Train Acc: 0.9737 | Train F1: 0.9566 | Val Loss: 0.0599 | Val Acc: 0.9836 | Val F1: 0.9734
+2026-08-19 09:36:07,518 [INFO] - [Trial 38] Epoch 3/50 | Train Loss: 0.0648 | Train Acc: 0.9805 | Train F1: 0.9729 | Val Loss: 0.0612 | Val Acc: 0.9832 | Val F1: 0.9639
+2026-08-19 09:36:07,528 [INFO] - Trial 38 podado por pruner.
+2026-08-19 09:36:07,576 [INFO] - 
+Trial 39 - Hiperparámetros:
+2026-08-19 09:36:07,577 [INFO] -   lr: 5.4336483390708554e-05
+2026-08-19 09:36:07,577 [INFO] -   optimizer_name: AdamW
+2026-08-19 09:36:07,578 [INFO] -   dropout: 0.10580668175919321
+2026-08-19 09:36:07,578 [INFO] -   weight_decay: 5.102048633850622e-05
+2026-08-19 09:36:07,579 [INFO] -   batch_size: 32
+2026-08-19 09:36:07,579 [INFO] -   unfreeze_blocks: 2
+2026-08-19 09:36:51,869 [INFO] - [Trial 39] Epoch 1/50 | Train Loss: 0.5340 | Train Acc: 0.8453 | Train F1: 0.6736 | Val Loss: 0.1060 | Val Acc: 0.9747 | Val F1: 0.9639
+2026-08-19 09:37:37,247 [INFO] - [Trial 39] Epoch 2/50 | Train Loss: 0.1557 | Train Acc: 0.9552 | Train F1: 0.9104 | Val Loss: 0.0679 | Val Acc: 0.9810 | Val F1: 0.9747
+2026-08-19 09:38:22,411 [INFO] - [Trial 39] Epoch 3/50 | Train Loss: 0.1061 | Train Acc: 0.9707 | Train F1: 0.9497 | Val Loss: 0.0649 | Val Acc: 0.9829 | Val F1: 0.9772
+2026-08-19 09:38:22,422 [INFO] - Trial 39 podado por pruner.
+2026-08-19 09:38:22,470 [INFO] - 
+Trial 40 - Hiperparámetros:
+2026-08-19 09:38:22,470 [INFO] -   lr: 7.498929579598923e-06
+2026-08-19 09:38:22,471 [INFO] -   optimizer_name: AdamW
+2026-08-19 09:38:22,472 [INFO] -   dropout: 0.585898094933584
+2026-08-19 09:38:22,472 [INFO] -   weight_decay: 1.3058936753247165e-05
+2026-08-19 09:38:22,473 [INFO] -   batch_size: 128
+2026-08-19 09:38:22,473 [INFO] -   unfreeze_blocks: 4
+2026-08-19 09:39:06,209 [INFO] - [Trial 40] Epoch 1/50 | Train Loss: 2.3968 | Train Acc: 0.2037 | Train F1: 0.1335 | Val Loss: 1.4949 | Val Acc: 0.6220 | Val F1: 0.2571
+2026-08-19 09:39:50,999 [INFO] - [Trial 40] Epoch 2/50 | Train Loss: 1.5527 | Train Acc: 0.5376 | Train F1: 0.2816 | Val Loss: 0.8734 | Val Acc: 0.7443 | Val F1: 0.3334
+2026-08-19 09:40:35,640 [INFO] - [Trial 40] Epoch 3/50 | Train Loss: 1.0638 | Train Acc: 0.6916 | Train F1: 0.3967 | Val Loss: 0.5834 | Val Acc: 0.8233 | Val F1: 0.4950
+2026-08-19 09:40:35,648 [INFO] - Trial 40 podado por pruner.
+2026-08-19 09:40:35,699 [INFO] - 
+Trial 41 - Hiperparámetros:
+2026-08-19 09:40:35,700 [INFO] -   lr: 1.7038880578332954e-05
+2026-08-19 09:40:35,701 [INFO] -   optimizer_name: AdamW
+2026-08-19 09:40:35,701 [INFO] -   dropout: 0.10206459334838736
+2026-08-19 09:40:35,702 [INFO] -   weight_decay: 0.045645786857070575
+2026-08-19 09:40:35,703 [INFO] -   batch_size: 64
+2026-08-19 09:40:35,704 [INFO] -   unfreeze_blocks: 4
+2026-08-19 09:41:20,083 [INFO] - [Trial 41] Epoch 1/50 | Train Loss: 1.1271 | Train Acc: 0.6692 | Train F1: 0.4225 | Val Loss: 0.4109 | Val Acc: 0.8859 | Val F1: 0.6228
+2026-08-19 09:42:05,100 [INFO] - [Trial 41] Epoch 2/50 | Train Loss: 0.3551 | Train Acc: 0.9073 | Train F1: 0.6706 | Val Loss: 0.1985 | Val Acc: 0.9355 | Val F1: 0.7076
+2026-08-19 09:42:49,912 [INFO] - [Trial 41] Epoch 3/50 | Train Loss: 0.2063 | Train Acc: 0.9440 | Train F1: 0.8287 | Val Loss: 0.1248 | Val Acc: 0.9630 | Val F1: 0.9193
+2026-08-19 09:42:49,923 [INFO] - Trial 41 podado por pruner.
+2026-08-19 09:42:49,969 [INFO] - 
+Trial 42 - Hiperparámetros:
+2026-08-19 09:42:49,970 [INFO] -   lr: 3.840610983233898e-05
+2026-08-19 09:42:49,970 [INFO] -   optimizer_name: AdamW
+2026-08-19 09:42:49,971 [INFO] -   dropout: 0.15668388930558874
+2026-08-19 09:42:49,972 [INFO] -   weight_decay: 0.08434099842175073
+2026-08-19 09:42:49,973 [INFO] -   batch_size: 64
+2026-08-19 09:42:49,973 [INFO] -   unfreeze_blocks: 4
+2026-08-19 09:43:34,357 [INFO] - [Trial 42] Epoch 1/50 | Train Loss: 0.7282 | Train Acc: 0.7889 | Train F1: 0.5408 | Val Loss: 0.2010 | Val Acc: 0.9314 | Val F1: 0.7472
+2026-08-19 09:44:19,570 [INFO] - [Trial 42] Epoch 2/50 | Train Loss: 0.1762 | Train Acc: 0.9512 | Train F1: 0.8843 | Val Loss: 0.0880 | Val Acc: 0.9738 | Val F1: 0.9696
+2026-08-19 09:45:04,420 [INFO] - [Trial 42] Epoch 3/50 | Train Loss: 0.1063 | Train Acc: 0.9706 | Train F1: 0.9445 | Val Loss: 0.0623 | Val Acc: 0.9823 | Val F1: 0.9790
+2026-08-19 09:45:04,428 [INFO] - Trial 42 podado por pruner.
+2026-08-19 09:45:04,472 [INFO] - 
+Trial 43 - Hiperparámetros:
+2026-08-19 09:45:04,473 [INFO] -   lr: 4.964382408900669e-06
+2026-08-19 09:45:04,474 [INFO] -   optimizer_name: AdamW
+2026-08-19 09:45:04,474 [INFO] -   dropout: 0.124998248930761
+2026-08-19 09:45:04,475 [INFO] -   weight_decay: 0.011136419910582606
+2026-08-19 09:45:04,475 [INFO] -   batch_size: 64
+2026-08-19 09:45:04,476 [INFO] -   unfreeze_blocks: 3
+2026-08-19 09:45:49,195 [INFO] - [Trial 43] Epoch 1/50 | Train Loss: 1.7479 | Train Acc: 0.4648 | Train F1: 0.2373 | Val Loss: 1.0010 | Val Acc: 0.7547 | Val F1: 0.3595
+2026-08-19 09:46:34,706 [INFO] - [Trial 43] Epoch 2/50 | Train Loss: 1.0323 | Train Acc: 0.7083 | Train F1: 0.3942 | Val Loss: 0.5974 | Val Acc: 0.8483 | Val F1: 0.5392
+2026-08-19 09:47:20,311 [INFO] - [Trial 43] Epoch 3/50 | Train Loss: 0.6994 | Train Acc: 0.8061 | Train F1: 0.5338 | Val Loss: 0.4169 | Val Acc: 0.9042 | Val F1: 0.6306
+2026-08-19 09:47:20,322 [INFO] - Trial 43 podado por pruner.
+2026-08-19 09:47:20,370 [INFO] - 
+Trial 44 - Hiperparámetros:
+2026-08-19 09:47:20,371 [INFO] -   lr: 1.1298271738822625e-05
+2026-08-19 09:47:20,372 [INFO] -   optimizer_name: AdamW
+2026-08-19 09:47:20,372 [INFO] -   dropout: 0.04160751536932508
+2026-08-19 09:47:20,372 [INFO] -   weight_decay: 0.04730425449935515
+2026-08-19 09:47:20,373 [INFO] -   batch_size: 64
+2026-08-19 09:47:20,374 [INFO] -   unfreeze_blocks: 4
+2026-08-19 09:48:04,791 [INFO] - [Trial 44] Epoch 1/50 | Train Loss: 1.3150 | Train Acc: 0.5975 | Train F1: 0.3115 | Val Loss: 0.5560 | Val Acc: 0.8606 | Val F1: 0.5841
+2026-08-19 09:48:49,752 [INFO] - [Trial 44] Epoch 2/50 | Train Loss: 0.5238 | Train Acc: 0.8643 | Train F1: 0.6048 | Val Loss: 0.2782 | Val Acc: 0.9162 | Val F1: 0.6490
+2026-08-19 09:49:35,095 [INFO] - [Trial 44] Epoch 3/50 | Train Loss: 0.3068 | Train Acc: 0.9166 | Train F1: 0.6780 | Val Loss: 0.1843 | Val Acc: 0.9362 | Val F1: 0.7185
+2026-08-19 09:49:35,106 [INFO] - Trial 44 podado por pruner.
+2026-08-19 09:49:35,151 [INFO] - 
+Trial 45 - Hiperparámetros:
+2026-08-19 09:49:35,152 [INFO] -   lr: 0.00010562431320079266
+2026-08-19 09:49:35,153 [INFO] -   optimizer_name: AdamW
+2026-08-19 09:49:35,153 [INFO] -   dropout: 0.32309486625283346
+2026-08-19 09:49:35,154 [INFO] -   weight_decay: 0.0006006132769451704
+2026-08-19 09:49:35,154 [INFO] -   batch_size: 64
+2026-08-19 09:49:35,155 [INFO] -   unfreeze_blocks: 1
+2026-08-19 09:50:19,906 [INFO] - [Trial 45] Epoch 1/50 | Train Loss: 0.6366 | Train Acc: 0.8061 | Train F1: 0.5654 | Val Loss: 0.1738 | Val Acc: 0.9434 | Val F1: 0.7999
+2026-08-19 09:51:05,500 [INFO] - [Trial 45] Epoch 2/50 | Train Loss: 0.2216 | Train Acc: 0.9335 | Train F1: 0.8636 | Val Loss: 0.1177 | Val Acc: 0.9674 | Val F1: 0.9500
+2026-08-19 09:51:51,298 [INFO] - [Trial 45] Epoch 3/50 | Train Loss: 0.1541 | Train Acc: 0.9537 | Train F1: 0.9114 | Val Loss: 0.1105 | Val Acc: 0.9659 | Val F1: 0.9467
+2026-08-19 09:51:51,306 [INFO] - Trial 45 podado por pruner.
+2026-08-19 09:51:51,355 [INFO] - 
+Trial 46 - Hiperparámetros:
+2026-08-19 09:51:51,355 [INFO] -   lr: 0.00026951136510005495
+2026-08-19 09:51:51,356 [INFO] -   optimizer_name: AdamW
+2026-08-19 09:51:51,356 [INFO] -   dropout: 0.22847211476550675
+2026-08-19 09:51:51,357 [INFO] -   weight_decay: 0.006601934488002555
+2026-08-19 09:51:51,357 [INFO] -   batch_size: 64
+2026-08-19 09:51:51,358 [INFO] -   unfreeze_blocks: 3
+2026-08-19 09:52:36,480 [INFO] - [Trial 46] Epoch 1/50 | Train Loss: 0.3086 | Train Acc: 0.9047 | Train F1: 0.8123 | Val Loss: 0.0725 | Val Acc: 0.9785 | Val F1: 0.9713
+2026-08-19 09:53:21,955 [INFO] - [Trial 46] Epoch 2/50 | Train Loss: 0.0912 | Train Acc: 0.9711 | Train F1: 0.9525 | Val Loss: 0.0806 | Val Acc: 0.9785 | Val F1: 0.9729
+2026-08-19 09:54:07,210 [INFO] - [Trial 46] Epoch 3/50 | Train Loss: 0.0733 | Train Acc: 0.9774 | Train F1: 0.9655 | Val Loss: 0.0721 | Val Acc: 0.9785 | Val F1: 0.9842
+2026-08-19 09:54:52,812 [INFO] - [Trial 46] Epoch 4/50 | Train Loss: 0.0666 | Train Acc: 0.9794 | Train F1: 0.9691 | Val Loss: 0.0893 | Val Acc: 0.9681 | Val F1: 0.9696
+2026-08-19 09:55:38,295 [INFO] - [Trial 46] Epoch 5/50 | Train Loss: 0.0541 | Train Acc: 0.9832 | Train F1: 0.9770 | Val Loss: 0.0561 | Val Acc: 0.9801 | Val F1: 0.9849
+2026-08-19 09:55:38,307 [INFO] - Trial 46 podado por pruner.
+2026-08-19 09:55:38,357 [INFO] - 
+Trial 47 - Hiperparámetros:
+2026-08-19 09:55:38,358 [INFO] -   lr: 0.0001569932331212199
+2026-08-19 09:55:38,359 [INFO] -   optimizer_name: AdamW
+2026-08-19 09:55:38,360 [INFO] -   dropout: 0.1842040424879872
+2026-08-19 09:55:38,360 [INFO] -   weight_decay: 0.012975995160590078
+2026-08-19 09:55:38,361 [INFO] -   batch_size: 128
+2026-08-19 09:55:38,361 [INFO] -   unfreeze_blocks: 2
+2026-08-19 09:56:22,768 [INFO] - [Trial 47] Epoch 1/50 | Train Loss: 0.5228 | Train Acc: 0.8391 | Train F1: 0.6599 | Val Loss: 0.1144 | Val Acc: 0.9697 | Val F1: 0.9592
+2026-08-19 09:57:08,201 [INFO] - [Trial 47] Epoch 2/50 | Train Loss: 0.1243 | Train Acc: 0.9629 | Train F1: 0.9318 | Val Loss: 0.0893 | Val Acc: 0.9725 | Val F1: 0.9710
+2026-08-19 09:57:53,581 [INFO] - [Trial 47] Epoch 3/50 | Train Loss: 0.0848 | Train Acc: 0.9737 | Train F1: 0.9498 | Val Loss: 0.0637 | Val Acc: 0.9801 | Val F1: 0.9737
+2026-08-19 09:57:53,589 [INFO] - Trial 47 podado por pruner.
+2026-08-19 09:57:53,638 [INFO] - 
+Trial 48 - Hiperparámetros:
+2026-08-19 09:57:53,638 [INFO] -   lr: 0.0006582121486993654
+2026-08-19 09:57:53,639 [INFO] -   optimizer_name: AdamW
+2026-08-19 09:57:53,639 [INFO] -   dropout: 0.28820830341455383
+2026-08-19 09:57:53,640 [INFO] -   weight_decay: 0.0034198996373688236
+2026-08-19 09:57:53,641 [INFO] -   batch_size: 256
+2026-08-19 09:57:53,641 [INFO] -   unfreeze_blocks: 4
+2026-08-19 09:58:37,206 [INFO] - [Trial 48] Epoch 1/50 | Train Loss: 0.3634 | Train Acc: 0.8893 | Train F1: 0.7910 | Val Loss: 0.1417 | Val Acc: 0.9551 | Val F1: 0.8906
+2026-08-19 09:59:19,928 [INFO] - [Trial 48] Epoch 2/50 | Train Loss: 0.0857 | Train Acc: 0.9730 | Train F1: 0.9558 | Val Loss: 0.0967 | Val Acc: 0.9687 | Val F1: 0.9541
+2026-08-19 10:00:02,750 [INFO] - [Trial 48] Epoch 3/50 | Train Loss: 0.0832 | Train Acc: 0.9743 | Train F1: 0.9560 | Val Loss: 0.0837 | Val Acc: 0.9747 | Val F1: 0.9485
+2026-08-19 10:00:02,758 [INFO] - Trial 48 podado por pruner.
+2026-08-19 10:00:02,812 [INFO] - 
+Trial 49 - Hiperparámetros:
+2026-08-19 10:00:02,813 [INFO] -   lr: 7.306688002928039e-05
+2026-08-19 10:00:02,814 [INFO] -   optimizer_name: AdamW
+2026-08-19 10:00:02,814 [INFO] -   dropout: 0.20330356746910394
+2026-08-19 10:00:02,815 [INFO] -   weight_decay: 0.0580164840231164
+2026-08-19 10:00:02,816 [INFO] -   batch_size: 32
+2026-08-19 10:00:02,817 [INFO] -   unfreeze_blocks: 3
+2026-08-19 10:00:46,605 [INFO] - [Trial 49] Epoch 1/50 | Train Loss: 0.4567 | Train Acc: 0.8625 | Train F1: 0.7089 | Val Loss: 0.0882 | Val Acc: 0.9757 | Val F1: 0.9690
+2026-08-19 10:01:31,045 [INFO] - [Trial 49] Epoch 2/50 | Train Loss: 0.1183 | Train Acc: 0.9641 | Train F1: 0.9371 | Val Loss: 0.0571 | Val Acc: 0.9867 | Val F1: 0.9868
+2026-08-19 10:02:15,612 [INFO] - [Trial 49] Epoch 3/50 | Train Loss: 0.0809 | Train Acc: 0.9756 | Train F1: 0.9649 | Val Loss: 0.0423 | Val Acc: 0.9880 | Val F1: 0.9804
+2026-08-19 10:03:00,425 [INFO] - [Trial 49] Epoch 4/50 | Train Loss: 0.0704 | Train Acc: 0.9803 | Train F1: 0.9687 | Val Loss: 0.0410 | Val Acc: 0.9899 | Val F1: 0.9914
+2026-08-19 10:03:45,111 [INFO] - [Trial 49] Epoch 5/50 | Train Loss: 0.0600 | Train Acc: 0.9827 | Train F1: 0.9771 | Val Loss: 0.0461 | Val Acc: 0.9858 | Val F1: 0.9885
+2026-08-19 10:04:30,069 [INFO] - [Trial 49] Epoch 6/50 | Train Loss: 0.0535 | Train Acc: 0.9846 | Train F1: 0.9765 | Val Loss: 0.0326 | Val Acc: 0.9908 | Val F1: 0.9888
+2026-08-19 10:05:14,680 [INFO] - [Trial 49] Epoch 7/50 | Train Loss: 0.0510 | Train Acc: 0.9842 | Train F1: 0.9769 | Val Loss: 0.0309 | Val Acc: 0.9924 | Val F1: 0.9870
+2026-08-19 10:05:59,391 [INFO] - [Trial 49] Epoch 8/50 | Train Loss: 0.0432 | Train Acc: 0.9865 | Train F1: 0.9816 | Val Loss: 0.0284 | Val Acc: 0.9927 | Val F1: 0.9863
+2026-08-19 10:06:44,278 [INFO] - [Trial 49] Epoch 9/50 | Train Loss: 0.0347 | Train Acc: 0.9900 | Train F1: 0.9853 | Val Loss: 0.0577 | Val Acc: 0.9823 | Val F1: 0.9729
+2026-08-19 10:07:28,686 [INFO] - [Trial 49] Epoch 10/50 | Train Loss: 0.0426 | Train Acc: 0.9854 | Train F1: 0.9785 | Val Loss: 0.0350 | Val Acc: 0.9902 | Val F1: 0.9835
+2026-08-19 10:08:13,159 [INFO] - [Trial 49] Epoch 11/50 | Train Loss: 0.0359 | Train Acc: 0.9887 | Train F1: 0.9846 | Val Loss: 0.0375 | Val Acc: 0.9886 | Val F1: 0.9822
+2026-08-19 10:08:58,960 [INFO] - [Trial 49] Epoch 12/50 | Train Loss: 0.0323 | Train Acc: 0.9892 | Train F1: 0.9850 | Val Loss: 0.0423 | Val Acc: 0.9886 | Val F1: 0.9883
+2026-08-19 10:09:35,368 [INFO] - [Trial 49] Epoch 13/50 | Train Loss: 0.0319 | Train Acc: 0.9903 | Train F1: 0.9851 | Val Loss: 0.0399 | Val Acc: 0.9893 | Val F1: 0.9817
+2026-08-19 10:10:10,573 [INFO] - [Trial 49] Epoch 14/50 | Train Loss: 0.0317 | Train Acc: 0.9911 | Train F1: 0.9862 | Val Loss: 0.0316 | Val Acc: 0.9908 | Val F1: 0.9862
+2026-08-19 10:10:10,581 [INFO] - Early stopping en época 14.
+2026-08-19 10:10:10,591 [INFO] - 
+=== MEJORES RESULTADOS ===
+2026-08-19 10:10:10,591 [INFO] - Mejor trial: Trial 12
+2026-08-19 10:10:10,592 [INFO] - F1-Score: 0.9963
+2026-08-19 10:10:10,592 [INFO] - Hiperparámetros:
+2026-08-19 10:10:10,593 [INFO] -   lr: 0.00014293584268844557
+2026-08-19 10:10:10,593 [INFO] -   dropout: 0.1489659267560571
+2026-08-19 10:10:10,594 [INFO] -   weight_decay: 0.07378287058816868
+2026-08-19 10:10:10,594 [INFO] -   batch_size: 128
+2026-08-19 10:10:10,594 [INFO] -   unfreeze_blocks: 3

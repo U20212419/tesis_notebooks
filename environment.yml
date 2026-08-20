@@ -53,15 +53,20 @@ dependencies:
   - zeromq=4.3.5
   - zlib=1.3.2
   - pip:
+      - alembic==1.19.1
       - anyio==4.14.2
+      - attrs==26.1.0
       - certifi==2026.7.22
       - charset-normalizer==3.5.1
       - click==8.4.2
+      - colorlog==6.12.0
       - contourpy==1.3.3
       - cycler==0.12.1
+      - fastjsonschema==2.22.2
       - filelock==3.32.3
       - fonttools==4.63.0
       - fsspec==2026.7.0
+      - greenlet==3.5.5
       - h11==0.16.0
       - h5py==3.16.0
       - hf-xet==1.6.0
@@ -71,25 +76,39 @@ dependencies:
       - idna==3.18
       - ipywidgets==8.1.8
       - jinja2==3.1.6
+      - joblib==1.5.3
+      - jsonschema==4.26.0
+      - jsonschema-specifications==2025.9.1
       - jupyterlab-widgets==3.0.16
+      - kaleido==0.1.0.post1
       - kiwisolver==1.5.0
+      - mako==1.4.1
       - markupsafe==3.0.3
       - matplotlib==3.11.1
       - mpmath==1.3.0
+      - narwhals==2.24.0
+      - nbformat==5.11.1
       - networkx==3.6.1
       - numpy==2.5.2
       - nvidia-ml-py==13.610.43
       - opencv-python==5.0.0.93
+      - optuna==4.9.0
       - pandas==3.0.5
       - pillow==12.3.0
+      - plotly==6.1.1
       - polars==1.43.2
       - polars-runtime-32==1.43.2
       - pyparsing==3.3.2
       - pyyaml==6.0.3
+      - referencing==0.37.0
       - requests==2.34.2
+      - rpds-py==2026.6.3
+      - scikit-learn==1.9.0
       - scipy==1.18.0
       - setuptools==78.1.0
+      - sqlalchemy==2.0.52
       - sympy==1.14.0
+      - threadpoolctl==3.6.0
       - torch==2.11.0+cu128
       - torchaudio==2.11.0+cu128
       - torchvision==0.26.0+cu128
